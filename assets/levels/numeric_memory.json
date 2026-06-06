@@ -1,0 +1,2135 @@
+{
+  "gameId": "numeric_memory",
+  "levels": [
+    {
+      "level": 1,
+      "expression": "10",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 10, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "10",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "8 + 3",
+            "answer": "11"
+          },
+          {
+            "id": "c1",
+            "label": "9 + 3",
+            "answer": "12"
+          },
+          {
+            "id": "c2",
+            "label": "6 + 4",
+            "answer": "10"
+          },
+          {
+            "id": "c3",
+            "label": "11 + 3",
+            "answer": "14"
+          },
+          {
+            "id": "c4",
+            "label": "12 + 3",
+            "answer": "15"
+          },
+          {
+            "id": "c5",
+            "label": "10",
+            "answer": "10"
+          },
+          {
+            "id": "c6",
+            "label": "9 + 3",
+            "answer": "12"
+          },
+          {
+            "id": "c7",
+            "label": "10 + 3",
+            "answer": "13"
+          },
+          {
+            "id": "c8",
+            "label": "8 + 2",
+            "answer": "10"
+          },
+          {
+            "id": "c9",
+            "label": "12 + 3",
+            "answer": "15"
+          },
+          {
+            "id": "c10",
+            "label": "6 + 4",
+            "answer": "10"
+          },
+          {
+            "id": "c11",
+            "label": "9 + 3",
+            "answer": "12"
+          }
+        ]
+      }
+    },
+    {
+      "level": 2,
+      "expression": "11",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 11, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "11",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "9 + 3",
+            "answer": "12"
+          },
+          {
+            "id": "c1",
+            "label": "10 + 3",
+            "answer": "13"
+          },
+          {
+            "id": "c2",
+            "label": "7 + 4",
+            "answer": "11"
+          },
+          {
+            "id": "c3",
+            "label": "12 + 3",
+            "answer": "15"
+          },
+          {
+            "id": "c4",
+            "label": "13 + 3",
+            "answer": "16"
+          },
+          {
+            "id": "c5",
+            "label": "11",
+            "answer": "11"
+          },
+          {
+            "id": "c6",
+            "label": "10 + 3",
+            "answer": "13"
+          },
+          {
+            "id": "c7",
+            "label": "11 + 3",
+            "answer": "14"
+          },
+          {
+            "id": "c8",
+            "label": "9 + 2",
+            "answer": "11"
+          },
+          {
+            "id": "c9",
+            "label": "13 + 3",
+            "answer": "16"
+          },
+          {
+            "id": "c10",
+            "label": "7 + 4",
+            "answer": "11"
+          },
+          {
+            "id": "c11",
+            "label": "10 + 3",
+            "answer": "13"
+          }
+        ]
+      }
+    },
+    {
+      "level": 3,
+      "expression": "12",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 12, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "12",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "10 + 3",
+            "answer": "13"
+          },
+          {
+            "id": "c1",
+            "label": "11 + 3",
+            "answer": "14"
+          },
+          {
+            "id": "c2",
+            "label": "8 + 4",
+            "answer": "12"
+          },
+          {
+            "id": "c3",
+            "label": "13 + 3",
+            "answer": "16"
+          },
+          {
+            "id": "c4",
+            "label": "14 + 3",
+            "answer": "17"
+          },
+          {
+            "id": "c5",
+            "label": "12",
+            "answer": "12"
+          },
+          {
+            "id": "c6",
+            "label": "11 + 3",
+            "answer": "14"
+          },
+          {
+            "id": "c7",
+            "label": "12 + 3",
+            "answer": "15"
+          },
+          {
+            "id": "c8",
+            "label": "10 + 2",
+            "answer": "12"
+          },
+          {
+            "id": "c9",
+            "label": "14 + 3",
+            "answer": "17"
+          },
+          {
+            "id": "c10",
+            "label": "8 + 4",
+            "answer": "12"
+          },
+          {
+            "id": "c11",
+            "label": "11 + 3",
+            "answer": "14"
+          }
+        ]
+      }
+    },
+    {
+      "level": 4,
+      "expression": "13",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 13, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "13",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "11 + 3",
+            "answer": "14"
+          },
+          {
+            "id": "c1",
+            "label": "12 + 3",
+            "answer": "15"
+          },
+          {
+            "id": "c2",
+            "label": "9 + 4",
+            "answer": "13"
+          },
+          {
+            "id": "c3",
+            "label": "14 + 3",
+            "answer": "17"
+          },
+          {
+            "id": "c4",
+            "label": "15 + 3",
+            "answer": "18"
+          },
+          {
+            "id": "c5",
+            "label": "13",
+            "answer": "13"
+          },
+          {
+            "id": "c6",
+            "label": "12 + 3",
+            "answer": "15"
+          },
+          {
+            "id": "c7",
+            "label": "13 + 3",
+            "answer": "16"
+          },
+          {
+            "id": "c8",
+            "label": "11 + 2",
+            "answer": "13"
+          },
+          {
+            "id": "c9",
+            "label": "15 + 3",
+            "answer": "18"
+          },
+          {
+            "id": "c10",
+            "label": "9 + 4",
+            "answer": "13"
+          },
+          {
+            "id": "c11",
+            "label": "12 + 3",
+            "answer": "15"
+          }
+        ]
+      }
+    },
+    {
+      "level": 5,
+      "expression": "14",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 14, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "14",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "12 + 3",
+            "answer": "15"
+          },
+          {
+            "id": "c1",
+            "label": "13 + 3",
+            "answer": "16"
+          },
+          {
+            "id": "c2",
+            "label": "10 + 4",
+            "answer": "14"
+          },
+          {
+            "id": "c3",
+            "label": "15 + 3",
+            "answer": "18"
+          },
+          {
+            "id": "c4",
+            "label": "16 + 3",
+            "answer": "19"
+          },
+          {
+            "id": "c5",
+            "label": "14",
+            "answer": "14"
+          },
+          {
+            "id": "c6",
+            "label": "13 + 3",
+            "answer": "16"
+          },
+          {
+            "id": "c7",
+            "label": "14 + 3",
+            "answer": "17"
+          },
+          {
+            "id": "c8",
+            "label": "12 + 2",
+            "answer": "14"
+          },
+          {
+            "id": "c9",
+            "label": "16 + 3",
+            "answer": "19"
+          },
+          {
+            "id": "c10",
+            "label": "10 + 4",
+            "answer": "14"
+          },
+          {
+            "id": "c11",
+            "label": "13 + 3",
+            "answer": "16"
+          }
+        ]
+      }
+    },
+    {
+      "level": 6,
+      "expression": "15",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 15, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "15",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "13 + 3",
+            "answer": "16"
+          },
+          {
+            "id": "c1",
+            "label": "14 + 3",
+            "answer": "17"
+          },
+          {
+            "id": "c2",
+            "label": "11 + 4",
+            "answer": "15"
+          },
+          {
+            "id": "c3",
+            "label": "16 + 3",
+            "answer": "19"
+          },
+          {
+            "id": "c4",
+            "label": "17 + 3",
+            "answer": "20"
+          },
+          {
+            "id": "c5",
+            "label": "15",
+            "answer": "15"
+          },
+          {
+            "id": "c6",
+            "label": "14 + 3",
+            "answer": "17"
+          },
+          {
+            "id": "c7",
+            "label": "15 + 3",
+            "answer": "18"
+          },
+          {
+            "id": "c8",
+            "label": "13 + 2",
+            "answer": "15"
+          },
+          {
+            "id": "c9",
+            "label": "17 + 3",
+            "answer": "20"
+          },
+          {
+            "id": "c10",
+            "label": "11 + 4",
+            "answer": "15"
+          },
+          {
+            "id": "c11",
+            "label": "14 + 3",
+            "answer": "17"
+          }
+        ]
+      }
+    },
+    {
+      "level": 7,
+      "expression": "16",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 16, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "16",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "14 + 3",
+            "answer": "17"
+          },
+          {
+            "id": "c1",
+            "label": "15 + 3",
+            "answer": "18"
+          },
+          {
+            "id": "c2",
+            "label": "12 + 4",
+            "answer": "16"
+          },
+          {
+            "id": "c3",
+            "label": "17 + 3",
+            "answer": "20"
+          },
+          {
+            "id": "c4",
+            "label": "18 + 3",
+            "answer": "21"
+          },
+          {
+            "id": "c5",
+            "label": "16",
+            "answer": "16"
+          },
+          {
+            "id": "c6",
+            "label": "15 + 3",
+            "answer": "18"
+          },
+          {
+            "id": "c7",
+            "label": "16 + 3",
+            "answer": "19"
+          },
+          {
+            "id": "c8",
+            "label": "14 + 2",
+            "answer": "16"
+          },
+          {
+            "id": "c9",
+            "label": "18 + 3",
+            "answer": "21"
+          },
+          {
+            "id": "c10",
+            "label": "12 + 4",
+            "answer": "16"
+          },
+          {
+            "id": "c11",
+            "label": "15 + 3",
+            "answer": "18"
+          }
+        ]
+      }
+    },
+    {
+      "level": 8,
+      "expression": "17",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 17, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "17",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "15 + 3",
+            "answer": "18"
+          },
+          {
+            "id": "c1",
+            "label": "16 + 3",
+            "answer": "19"
+          },
+          {
+            "id": "c2",
+            "label": "13 + 4",
+            "answer": "17"
+          },
+          {
+            "id": "c3",
+            "label": "18 + 3",
+            "answer": "21"
+          },
+          {
+            "id": "c4",
+            "label": "19 + 3",
+            "answer": "22"
+          },
+          {
+            "id": "c5",
+            "label": "17",
+            "answer": "17"
+          },
+          {
+            "id": "c6",
+            "label": "16 + 3",
+            "answer": "19"
+          },
+          {
+            "id": "c7",
+            "label": "17 + 3",
+            "answer": "20"
+          },
+          {
+            "id": "c8",
+            "label": "15 + 2",
+            "answer": "17"
+          },
+          {
+            "id": "c9",
+            "label": "19 + 3",
+            "answer": "22"
+          },
+          {
+            "id": "c10",
+            "label": "13 + 4",
+            "answer": "17"
+          },
+          {
+            "id": "c11",
+            "label": "16 + 3",
+            "answer": "19"
+          }
+        ]
+      }
+    },
+    {
+      "level": 9,
+      "expression": "18",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 18, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "18",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "16 + 3",
+            "answer": "19"
+          },
+          {
+            "id": "c1",
+            "label": "17 + 3",
+            "answer": "20"
+          },
+          {
+            "id": "c2",
+            "label": "14 + 4",
+            "answer": "18"
+          },
+          {
+            "id": "c3",
+            "label": "19 + 3",
+            "answer": "22"
+          },
+          {
+            "id": "c4",
+            "label": "20 + 3",
+            "answer": "23"
+          },
+          {
+            "id": "c5",
+            "label": "18",
+            "answer": "18"
+          },
+          {
+            "id": "c6",
+            "label": "17 + 3",
+            "answer": "20"
+          },
+          {
+            "id": "c7",
+            "label": "18 + 3",
+            "answer": "21"
+          },
+          {
+            "id": "c8",
+            "label": "16 + 2",
+            "answer": "18"
+          },
+          {
+            "id": "c9",
+            "label": "20 + 3",
+            "answer": "23"
+          },
+          {
+            "id": "c10",
+            "label": "14 + 4",
+            "answer": "18"
+          },
+          {
+            "id": "c11",
+            "label": "17 + 3",
+            "answer": "20"
+          }
+        ]
+      }
+    },
+    {
+      "level": 10,
+      "expression": "19",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 19, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "19",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "17 + 3",
+            "answer": "20"
+          },
+          {
+            "id": "c1",
+            "label": "18 + 3",
+            "answer": "21"
+          },
+          {
+            "id": "c2",
+            "label": "15 + 4",
+            "answer": "19"
+          },
+          {
+            "id": "c3",
+            "label": "20 + 3",
+            "answer": "23"
+          },
+          {
+            "id": "c4",
+            "label": "21 + 3",
+            "answer": "24"
+          },
+          {
+            "id": "c5",
+            "label": "19",
+            "answer": "19"
+          },
+          {
+            "id": "c6",
+            "label": "18 + 3",
+            "answer": "21"
+          },
+          {
+            "id": "c7",
+            "label": "19 + 3",
+            "answer": "22"
+          },
+          {
+            "id": "c8",
+            "label": "17 + 2",
+            "answer": "19"
+          },
+          {
+            "id": "c9",
+            "label": "21 + 3",
+            "answer": "24"
+          },
+          {
+            "id": "c10",
+            "label": "15 + 4",
+            "answer": "19"
+          },
+          {
+            "id": "c11",
+            "label": "18 + 3",
+            "answer": "21"
+          }
+        ]
+      }
+    },
+    {
+      "level": 11,
+      "expression": "20",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 20, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "20",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "18 + 3",
+            "answer": "21"
+          },
+          {
+            "id": "c1",
+            "label": "19 + 3",
+            "answer": "22"
+          },
+          {
+            "id": "c2",
+            "label": "16 + 4",
+            "answer": "20"
+          },
+          {
+            "id": "c3",
+            "label": "21 + 3",
+            "answer": "24"
+          },
+          {
+            "id": "c4",
+            "label": "22 + 3",
+            "answer": "25"
+          },
+          {
+            "id": "c5",
+            "label": "20",
+            "answer": "20"
+          },
+          {
+            "id": "c6",
+            "label": "19 + 3",
+            "answer": "22"
+          },
+          {
+            "id": "c7",
+            "label": "20 + 3",
+            "answer": "23"
+          },
+          {
+            "id": "c8",
+            "label": "18 + 2",
+            "answer": "20"
+          },
+          {
+            "id": "c9",
+            "label": "22 + 3",
+            "answer": "25"
+          },
+          {
+            "id": "c10",
+            "label": "16 + 4",
+            "answer": "20"
+          },
+          {
+            "id": "c11",
+            "label": "19 + 3",
+            "answer": "22"
+          }
+        ]
+      }
+    },
+    {
+      "level": 12,
+      "expression": "21",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 21, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "21",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "19 + 3",
+            "answer": "22"
+          },
+          {
+            "id": "c1",
+            "label": "20 + 3",
+            "answer": "23"
+          },
+          {
+            "id": "c2",
+            "label": "17 + 4",
+            "answer": "21"
+          },
+          {
+            "id": "c3",
+            "label": "22 + 3",
+            "answer": "25"
+          },
+          {
+            "id": "c4",
+            "label": "23 + 3",
+            "answer": "26"
+          },
+          {
+            "id": "c5",
+            "label": "21",
+            "answer": "21"
+          },
+          {
+            "id": "c6",
+            "label": "20 + 3",
+            "answer": "23"
+          },
+          {
+            "id": "c7",
+            "label": "21 + 3",
+            "answer": "24"
+          },
+          {
+            "id": "c8",
+            "label": "19 + 2",
+            "answer": "21"
+          },
+          {
+            "id": "c9",
+            "label": "23 + 3",
+            "answer": "26"
+          },
+          {
+            "id": "c10",
+            "label": "17 + 4",
+            "answer": "21"
+          },
+          {
+            "id": "c11",
+            "label": "20 + 3",
+            "answer": "23"
+          }
+        ]
+      }
+    },
+    {
+      "level": 13,
+      "expression": "22",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 22, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "22",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "20 + 3",
+            "answer": "23"
+          },
+          {
+            "id": "c1",
+            "label": "21 + 3",
+            "answer": "24"
+          },
+          {
+            "id": "c2",
+            "label": "18 + 4",
+            "answer": "22"
+          },
+          {
+            "id": "c3",
+            "label": "23 + 3",
+            "answer": "26"
+          },
+          {
+            "id": "c4",
+            "label": "24 + 3",
+            "answer": "27"
+          },
+          {
+            "id": "c5",
+            "label": "22",
+            "answer": "22"
+          },
+          {
+            "id": "c6",
+            "label": "21 + 3",
+            "answer": "24"
+          },
+          {
+            "id": "c7",
+            "label": "22 + 3",
+            "answer": "25"
+          },
+          {
+            "id": "c8",
+            "label": "20 + 2",
+            "answer": "22"
+          },
+          {
+            "id": "c9",
+            "label": "24 + 3",
+            "answer": "27"
+          },
+          {
+            "id": "c10",
+            "label": "18 + 4",
+            "answer": "22"
+          },
+          {
+            "id": "c11",
+            "label": "21 + 3",
+            "answer": "24"
+          }
+        ]
+      }
+    },
+    {
+      "level": 14,
+      "expression": "23",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 23, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "23",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "21 + 3",
+            "answer": "24"
+          },
+          {
+            "id": "c1",
+            "label": "22 + 3",
+            "answer": "25"
+          },
+          {
+            "id": "c2",
+            "label": "19 + 4",
+            "answer": "23"
+          },
+          {
+            "id": "c3",
+            "label": "24 + 3",
+            "answer": "27"
+          },
+          {
+            "id": "c4",
+            "label": "25 + 3",
+            "answer": "28"
+          },
+          {
+            "id": "c5",
+            "label": "23",
+            "answer": "23"
+          },
+          {
+            "id": "c6",
+            "label": "22 + 3",
+            "answer": "25"
+          },
+          {
+            "id": "c7",
+            "label": "23 + 3",
+            "answer": "26"
+          },
+          {
+            "id": "c8",
+            "label": "21 + 2",
+            "answer": "23"
+          },
+          {
+            "id": "c9",
+            "label": "25 + 3",
+            "answer": "28"
+          },
+          {
+            "id": "c10",
+            "label": "19 + 4",
+            "answer": "23"
+          },
+          {
+            "id": "c11",
+            "label": "22 + 3",
+            "answer": "25"
+          }
+        ]
+      }
+    },
+    {
+      "level": 15,
+      "expression": "24",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 24, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "24",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "22 + 3",
+            "answer": "25"
+          },
+          {
+            "id": "c1",
+            "label": "23 + 3",
+            "answer": "26"
+          },
+          {
+            "id": "c2",
+            "label": "20 + 4",
+            "answer": "24"
+          },
+          {
+            "id": "c3",
+            "label": "25 + 3",
+            "answer": "28"
+          },
+          {
+            "id": "c4",
+            "label": "26 + 3",
+            "answer": "29"
+          },
+          {
+            "id": "c5",
+            "label": "24",
+            "answer": "24"
+          },
+          {
+            "id": "c6",
+            "label": "23 + 3",
+            "answer": "26"
+          },
+          {
+            "id": "c7",
+            "label": "24 + 3",
+            "answer": "27"
+          },
+          {
+            "id": "c8",
+            "label": "22 + 2",
+            "answer": "24"
+          },
+          {
+            "id": "c9",
+            "label": "26 + 3",
+            "answer": "29"
+          },
+          {
+            "id": "c10",
+            "label": "20 + 4",
+            "answer": "24"
+          },
+          {
+            "id": "c11",
+            "label": "23 + 3",
+            "answer": "26"
+          }
+        ]
+      }
+    },
+    {
+      "level": 16,
+      "expression": "25",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 25, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "25",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "23 + 3",
+            "answer": "26"
+          },
+          {
+            "id": "c1",
+            "label": "24 + 3",
+            "answer": "27"
+          },
+          {
+            "id": "c2",
+            "label": "21 + 4",
+            "answer": "25"
+          },
+          {
+            "id": "c3",
+            "label": "26 + 3",
+            "answer": "29"
+          },
+          {
+            "id": "c4",
+            "label": "27 + 3",
+            "answer": "30"
+          },
+          {
+            "id": "c5",
+            "label": "25",
+            "answer": "25"
+          },
+          {
+            "id": "c6",
+            "label": "24 + 3",
+            "answer": "27"
+          },
+          {
+            "id": "c7",
+            "label": "25 + 3",
+            "answer": "28"
+          },
+          {
+            "id": "c8",
+            "label": "23 + 2",
+            "answer": "25"
+          },
+          {
+            "id": "c9",
+            "label": "27 + 3",
+            "answer": "30"
+          },
+          {
+            "id": "c10",
+            "label": "21 + 4",
+            "answer": "25"
+          },
+          {
+            "id": "c11",
+            "label": "24 + 3",
+            "answer": "27"
+          }
+        ]
+      }
+    },
+    {
+      "level": 17,
+      "expression": "26",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 26, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "26",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "24 + 3",
+            "answer": "27"
+          },
+          {
+            "id": "c1",
+            "label": "25 + 3",
+            "answer": "28"
+          },
+          {
+            "id": "c2",
+            "label": "22 + 4",
+            "answer": "26"
+          },
+          {
+            "id": "c3",
+            "label": "27 + 3",
+            "answer": "30"
+          },
+          {
+            "id": "c4",
+            "label": "28 + 3",
+            "answer": "31"
+          },
+          {
+            "id": "c5",
+            "label": "26",
+            "answer": "26"
+          },
+          {
+            "id": "c6",
+            "label": "25 + 3",
+            "answer": "28"
+          },
+          {
+            "id": "c7",
+            "label": "26 + 3",
+            "answer": "29"
+          },
+          {
+            "id": "c8",
+            "label": "24 + 2",
+            "answer": "26"
+          },
+          {
+            "id": "c9",
+            "label": "28 + 3",
+            "answer": "31"
+          },
+          {
+            "id": "c10",
+            "label": "22 + 4",
+            "answer": "26"
+          },
+          {
+            "id": "c11",
+            "label": "25 + 3",
+            "answer": "28"
+          }
+        ]
+      }
+    },
+    {
+      "level": 18,
+      "expression": "27",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 27, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "27",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "25 + 3",
+            "answer": "28"
+          },
+          {
+            "id": "c1",
+            "label": "26 + 3",
+            "answer": "29"
+          },
+          {
+            "id": "c2",
+            "label": "23 + 4",
+            "answer": "27"
+          },
+          {
+            "id": "c3",
+            "label": "28 + 3",
+            "answer": "31"
+          },
+          {
+            "id": "c4",
+            "label": "29 + 3",
+            "answer": "32"
+          },
+          {
+            "id": "c5",
+            "label": "27",
+            "answer": "27"
+          },
+          {
+            "id": "c6",
+            "label": "26 + 3",
+            "answer": "29"
+          },
+          {
+            "id": "c7",
+            "label": "27 + 3",
+            "answer": "30"
+          },
+          {
+            "id": "c8",
+            "label": "25 + 2",
+            "answer": "27"
+          },
+          {
+            "id": "c9",
+            "label": "29 + 3",
+            "answer": "32"
+          },
+          {
+            "id": "c10",
+            "label": "23 + 4",
+            "answer": "27"
+          },
+          {
+            "id": "c11",
+            "label": "26 + 3",
+            "answer": "29"
+          }
+        ]
+      }
+    },
+    {
+      "level": 19,
+      "expression": "28",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 28, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "28",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "26 + 3",
+            "answer": "29"
+          },
+          {
+            "id": "c1",
+            "label": "27 + 3",
+            "answer": "30"
+          },
+          {
+            "id": "c2",
+            "label": "24 + 4",
+            "answer": "28"
+          },
+          {
+            "id": "c3",
+            "label": "29 + 3",
+            "answer": "32"
+          },
+          {
+            "id": "c4",
+            "label": "30 + 3",
+            "answer": "33"
+          },
+          {
+            "id": "c5",
+            "label": "28",
+            "answer": "28"
+          },
+          {
+            "id": "c6",
+            "label": "27 + 3",
+            "answer": "30"
+          },
+          {
+            "id": "c7",
+            "label": "28 + 3",
+            "answer": "31"
+          },
+          {
+            "id": "c8",
+            "label": "26 + 2",
+            "answer": "28"
+          },
+          {
+            "id": "c9",
+            "label": "30 + 3",
+            "answer": "33"
+          },
+          {
+            "id": "c10",
+            "label": "24 + 4",
+            "answer": "28"
+          },
+          {
+            "id": "c11",
+            "label": "27 + 3",
+            "answer": "30"
+          }
+        ]
+      }
+    },
+    {
+      "level": 20,
+      "expression": "29",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 29, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "29",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "27 + 3",
+            "answer": "30"
+          },
+          {
+            "id": "c1",
+            "label": "28 + 3",
+            "answer": "31"
+          },
+          {
+            "id": "c2",
+            "label": "25 + 4",
+            "answer": "29"
+          },
+          {
+            "id": "c3",
+            "label": "30 + 3",
+            "answer": "33"
+          },
+          {
+            "id": "c4",
+            "label": "31 + 3",
+            "answer": "34"
+          },
+          {
+            "id": "c5",
+            "label": "29",
+            "answer": "29"
+          },
+          {
+            "id": "c6",
+            "label": "28 + 3",
+            "answer": "31"
+          },
+          {
+            "id": "c7",
+            "label": "29 + 3",
+            "answer": "32"
+          },
+          {
+            "id": "c8",
+            "label": "27 + 2",
+            "answer": "29"
+          },
+          {
+            "id": "c9",
+            "label": "31 + 3",
+            "answer": "34"
+          },
+          {
+            "id": "c10",
+            "label": "25 + 4",
+            "answer": "29"
+          },
+          {
+            "id": "c11",
+            "label": "28 + 3",
+            "answer": "31"
+          }
+        ]
+      }
+    },
+    {
+      "level": 21,
+      "expression": "30",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 30, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "30",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "28 + 3",
+            "answer": "31"
+          },
+          {
+            "id": "c1",
+            "label": "29 + 3",
+            "answer": "32"
+          },
+          {
+            "id": "c2",
+            "label": "26 + 4",
+            "answer": "30"
+          },
+          {
+            "id": "c3",
+            "label": "31 + 3",
+            "answer": "34"
+          },
+          {
+            "id": "c4",
+            "label": "32 + 3",
+            "answer": "35"
+          },
+          {
+            "id": "c5",
+            "label": "30",
+            "answer": "30"
+          },
+          {
+            "id": "c6",
+            "label": "29 + 3",
+            "answer": "32"
+          },
+          {
+            "id": "c7",
+            "label": "30 + 3",
+            "answer": "33"
+          },
+          {
+            "id": "c8",
+            "label": "28 + 2",
+            "answer": "30"
+          },
+          {
+            "id": "c9",
+            "label": "32 + 3",
+            "answer": "35"
+          },
+          {
+            "id": "c10",
+            "label": "26 + 4",
+            "answer": "30"
+          },
+          {
+            "id": "c11",
+            "label": "29 + 3",
+            "answer": "32"
+          }
+        ]
+      }
+    },
+    {
+      "level": 22,
+      "expression": "31",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 31, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "31",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "29 + 3",
+            "answer": "32"
+          },
+          {
+            "id": "c1",
+            "label": "30 + 3",
+            "answer": "33"
+          },
+          {
+            "id": "c2",
+            "label": "27 + 4",
+            "answer": "31"
+          },
+          {
+            "id": "c3",
+            "label": "32 + 3",
+            "answer": "35"
+          },
+          {
+            "id": "c4",
+            "label": "33 + 3",
+            "answer": "36"
+          },
+          {
+            "id": "c5",
+            "label": "31",
+            "answer": "31"
+          },
+          {
+            "id": "c6",
+            "label": "30 + 3",
+            "answer": "33"
+          },
+          {
+            "id": "c7",
+            "label": "31 + 3",
+            "answer": "34"
+          },
+          {
+            "id": "c8",
+            "label": "29 + 2",
+            "answer": "31"
+          },
+          {
+            "id": "c9",
+            "label": "33 + 3",
+            "answer": "36"
+          },
+          {
+            "id": "c10",
+            "label": "27 + 4",
+            "answer": "31"
+          },
+          {
+            "id": "c11",
+            "label": "30 + 3",
+            "answer": "33"
+          }
+        ]
+      }
+    },
+    {
+      "level": 23,
+      "expression": "32",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 32, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "32",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "30 + 3",
+            "answer": "33"
+          },
+          {
+            "id": "c1",
+            "label": "31 + 3",
+            "answer": "34"
+          },
+          {
+            "id": "c2",
+            "label": "28 + 4",
+            "answer": "32"
+          },
+          {
+            "id": "c3",
+            "label": "33 + 3",
+            "answer": "36"
+          },
+          {
+            "id": "c4",
+            "label": "34 + 3",
+            "answer": "37"
+          },
+          {
+            "id": "c5",
+            "label": "32",
+            "answer": "32"
+          },
+          {
+            "id": "c6",
+            "label": "31 + 3",
+            "answer": "34"
+          },
+          {
+            "id": "c7",
+            "label": "32 + 3",
+            "answer": "35"
+          },
+          {
+            "id": "c8",
+            "label": "30 + 2",
+            "answer": "32"
+          },
+          {
+            "id": "c9",
+            "label": "34 + 3",
+            "answer": "37"
+          },
+          {
+            "id": "c10",
+            "label": "28 + 4",
+            "answer": "32"
+          },
+          {
+            "id": "c11",
+            "label": "31 + 3",
+            "answer": "34"
+          }
+        ]
+      }
+    },
+    {
+      "level": 24,
+      "expression": "33",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 33, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "33",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "31 + 3",
+            "answer": "34"
+          },
+          {
+            "id": "c1",
+            "label": "32 + 3",
+            "answer": "35"
+          },
+          {
+            "id": "c2",
+            "label": "29 + 4",
+            "answer": "33"
+          },
+          {
+            "id": "c3",
+            "label": "34 + 3",
+            "answer": "37"
+          },
+          {
+            "id": "c4",
+            "label": "35 + 3",
+            "answer": "38"
+          },
+          {
+            "id": "c5",
+            "label": "33",
+            "answer": "33"
+          },
+          {
+            "id": "c6",
+            "label": "32 + 3",
+            "answer": "35"
+          },
+          {
+            "id": "c7",
+            "label": "33 + 3",
+            "answer": "36"
+          },
+          {
+            "id": "c8",
+            "label": "31 + 2",
+            "answer": "33"
+          },
+          {
+            "id": "c9",
+            "label": "35 + 3",
+            "answer": "38"
+          },
+          {
+            "id": "c10",
+            "label": "29 + 4",
+            "answer": "33"
+          },
+          {
+            "id": "c11",
+            "label": "32 + 3",
+            "answer": "35"
+          }
+        ]
+      }
+    },
+    {
+      "level": 25,
+      "expression": "34",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 34, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "34",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "32 + 3",
+            "answer": "35"
+          },
+          {
+            "id": "c1",
+            "label": "33 + 3",
+            "answer": "36"
+          },
+          {
+            "id": "c2",
+            "label": "30 + 4",
+            "answer": "34"
+          },
+          {
+            "id": "c3",
+            "label": "35 + 3",
+            "answer": "38"
+          },
+          {
+            "id": "c4",
+            "label": "36 + 3",
+            "answer": "39"
+          },
+          {
+            "id": "c5",
+            "label": "34",
+            "answer": "34"
+          },
+          {
+            "id": "c6",
+            "label": "33 + 3",
+            "answer": "36"
+          },
+          {
+            "id": "c7",
+            "label": "34 + 3",
+            "answer": "37"
+          },
+          {
+            "id": "c8",
+            "label": "32 + 2",
+            "answer": "34"
+          },
+          {
+            "id": "c9",
+            "label": "36 + 3",
+            "answer": "39"
+          },
+          {
+            "id": "c10",
+            "label": "30 + 4",
+            "answer": "34"
+          },
+          {
+            "id": "c11",
+            "label": "33 + 3",
+            "answer": "36"
+          }
+        ]
+      }
+    },
+    {
+      "level": 26,
+      "expression": "35",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 35, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "35",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "33 + 3",
+            "answer": "36"
+          },
+          {
+            "id": "c1",
+            "label": "34 + 3",
+            "answer": "37"
+          },
+          {
+            "id": "c2",
+            "label": "31 + 4",
+            "answer": "35"
+          },
+          {
+            "id": "c3",
+            "label": "36 + 3",
+            "answer": "39"
+          },
+          {
+            "id": "c4",
+            "label": "37 + 3",
+            "answer": "40"
+          },
+          {
+            "id": "c5",
+            "label": "35",
+            "answer": "35"
+          },
+          {
+            "id": "c6",
+            "label": "34 + 3",
+            "answer": "37"
+          },
+          {
+            "id": "c7",
+            "label": "35 + 3",
+            "answer": "38"
+          },
+          {
+            "id": "c8",
+            "label": "33 + 2",
+            "answer": "35"
+          },
+          {
+            "id": "c9",
+            "label": "37 + 3",
+            "answer": "40"
+          },
+          {
+            "id": "c10",
+            "label": "31 + 4",
+            "answer": "35"
+          },
+          {
+            "id": "c11",
+            "label": "34 + 3",
+            "answer": "37"
+          }
+        ]
+      }
+    },
+    {
+      "level": 27,
+      "expression": "36",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 36, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "36",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "34 + 3",
+            "answer": "37"
+          },
+          {
+            "id": "c1",
+            "label": "35 + 3",
+            "answer": "38"
+          },
+          {
+            "id": "c2",
+            "label": "32 + 4",
+            "answer": "36"
+          },
+          {
+            "id": "c3",
+            "label": "37 + 3",
+            "answer": "40"
+          },
+          {
+            "id": "c4",
+            "label": "38 + 3",
+            "answer": "41"
+          },
+          {
+            "id": "c5",
+            "label": "36",
+            "answer": "36"
+          },
+          {
+            "id": "c6",
+            "label": "35 + 3",
+            "answer": "38"
+          },
+          {
+            "id": "c7",
+            "label": "36 + 3",
+            "answer": "39"
+          },
+          {
+            "id": "c8",
+            "label": "34 + 2",
+            "answer": "36"
+          },
+          {
+            "id": "c9",
+            "label": "38 + 3",
+            "answer": "41"
+          },
+          {
+            "id": "c10",
+            "label": "32 + 4",
+            "answer": "36"
+          },
+          {
+            "id": "c11",
+            "label": "35 + 3",
+            "answer": "38"
+          }
+        ]
+      }
+    },
+    {
+      "level": 28,
+      "expression": "37",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 37, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "37",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "35 + 3",
+            "answer": "38"
+          },
+          {
+            "id": "c1",
+            "label": "36 + 3",
+            "answer": "39"
+          },
+          {
+            "id": "c2",
+            "label": "33 + 4",
+            "answer": "37"
+          },
+          {
+            "id": "c3",
+            "label": "38 + 3",
+            "answer": "41"
+          },
+          {
+            "id": "c4",
+            "label": "39 + 3",
+            "answer": "42"
+          },
+          {
+            "id": "c5",
+            "label": "37",
+            "answer": "37"
+          },
+          {
+            "id": "c6",
+            "label": "36 + 3",
+            "answer": "39"
+          },
+          {
+            "id": "c7",
+            "label": "37 + 3",
+            "answer": "40"
+          },
+          {
+            "id": "c8",
+            "label": "35 + 2",
+            "answer": "37"
+          },
+          {
+            "id": "c9",
+            "label": "39 + 3",
+            "answer": "42"
+          },
+          {
+            "id": "c10",
+            "label": "33 + 4",
+            "answer": "37"
+          },
+          {
+            "id": "c11",
+            "label": "36 + 3",
+            "answer": "39"
+          }
+        ]
+      }
+    },
+    {
+      "level": 29,
+      "expression": "38",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 38, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "38",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "36 + 3",
+            "answer": "39"
+          },
+          {
+            "id": "c1",
+            "label": "37 + 3",
+            "answer": "40"
+          },
+          {
+            "id": "c2",
+            "label": "34 + 4",
+            "answer": "38"
+          },
+          {
+            "id": "c3",
+            "label": "39 + 3",
+            "answer": "42"
+          },
+          {
+            "id": "c4",
+            "label": "40 + 3",
+            "answer": "43"
+          },
+          {
+            "id": "c5",
+            "label": "38",
+            "answer": "38"
+          },
+          {
+            "id": "c6",
+            "label": "37 + 3",
+            "answer": "40"
+          },
+          {
+            "id": "c7",
+            "label": "38 + 3",
+            "answer": "41"
+          },
+          {
+            "id": "c8",
+            "label": "36 + 2",
+            "answer": "38"
+          },
+          {
+            "id": "c9",
+            "label": "40 + 3",
+            "answer": "43"
+          },
+          {
+            "id": "c10",
+            "label": "34 + 4",
+            "answer": "38"
+          },
+          {
+            "id": "c11",
+            "label": "37 + 3",
+            "answer": "40"
+          }
+        ]
+      }
+    },
+    {
+      "level": 30,
+      "expression": "39",
+      "answer": "complete",
+      "hint": "Reveal cards while remembering their positions. Keep cards that equal 39, and avoid retapping cards that do not match the target.",
+      "data": {
+        "target": "39",
+        "cards": [
+          {
+            "id": "c0",
+            "label": "37 + 3",
+            "answer": "40"
+          },
+          {
+            "id": "c1",
+            "label": "38 + 3",
+            "answer": "41"
+          },
+          {
+            "id": "c2",
+            "label": "35 + 4",
+            "answer": "39"
+          },
+          {
+            "id": "c3",
+            "label": "40 + 3",
+            "answer": "43"
+          },
+          {
+            "id": "c4",
+            "label": "41 + 3",
+            "answer": "44"
+          },
+          {
+            "id": "c5",
+            "label": "39",
+            "answer": "39"
+          },
+          {
+            "id": "c6",
+            "label": "38 + 3",
+            "answer": "41"
+          },
+          {
+            "id": "c7",
+            "label": "39 + 3",
+            "answer": "42"
+          },
+          {
+            "id": "c8",
+            "label": "37 + 2",
+            "answer": "39"
+          },
+          {
+            "id": "c9",
+            "label": "41 + 3",
+            "answer": "44"
+          },
+          {
+            "id": "c10",
+            "label": "35 + 4",
+            "answer": "39"
+          },
+          {
+            "id": "c11",
+            "label": "38 + 3",
+            "answer": "41"
+          }
+        ]
+      }
+    }
+  ]
+}

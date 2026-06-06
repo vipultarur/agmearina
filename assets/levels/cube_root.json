@@ -1,0 +1,185 @@
+{
+  "gameId": "cube_root",
+  "levels": [
+    {
+      "level": 1,
+      "expression": "cuberoot(27)",
+      "answer": "3",
+      "hint": "Find the whole number that multiplies by itself three times to make 27. Compare with nearby cube facts."
+    },
+    {
+      "level": 2,
+      "expression": "cuberoot(64)",
+      "answer": "4",
+      "hint": "Find the whole number that multiplies by itself three times to make 64. Compare with nearby cube facts."
+    },
+    {
+      "level": 3,
+      "expression": "cuberoot(125)",
+      "answer": "5",
+      "hint": "Find the whole number that multiplies by itself three times to make 125. Compare with nearby cube facts."
+    },
+    {
+      "level": 4,
+      "expression": "cuberoot(216)",
+      "answer": "6",
+      "hint": "Find the whole number that multiplies by itself three times to make 216. Compare with nearby cube facts."
+    },
+    {
+      "level": 5,
+      "expression": "cuberoot(343)",
+      "answer": "7",
+      "hint": "Find the whole number that multiplies by itself three times to make 343. Compare with nearby cube facts."
+    },
+    {
+      "level": 6,
+      "expression": "cuberoot(512)",
+      "answer": "8",
+      "hint": "Find the whole number that multiplies by itself three times to make 512. Compare with nearby cube facts."
+    },
+    {
+      "level": 7,
+      "expression": "cuberoot(729)",
+      "answer": "9",
+      "hint": "Find the whole number that multiplies by itself three times to make 729. Compare with nearby cube facts."
+    },
+    {
+      "level": 8,
+      "expression": "cuberoot(1000)",
+      "answer": "10",
+      "hint": "Find the whole number that multiplies by itself three times to make 1000. Compare with nearby cube facts."
+    },
+    {
+      "level": 9,
+      "expression": "cuberoot(1331)",
+      "answer": "11",
+      "hint": "Find the whole number that multiplies by itself three times to make 1331. Compare with nearby cube facts."
+    },
+    {
+      "level": 10,
+      "expression": "cuberoot(8)",
+      "answer": "2",
+      "hint": "Find the whole number that multiplies by itself three times to make 8. Compare with nearby cube facts."
+    },
+    {
+      "level": 11,
+      "expression": "cuberoot(27)",
+      "answer": "3",
+      "hint": "Find the whole number that multiplies by itself three times to make 27. Compare with nearby cube facts."
+    },
+    {
+      "level": 12,
+      "expression": "cuberoot(64)",
+      "answer": "4",
+      "hint": "Find the whole number that multiplies by itself three times to make 64. Compare with nearby cube facts."
+    },
+    {
+      "level": 13,
+      "expression": "cuberoot(125)",
+      "answer": "5",
+      "hint": "Find the whole number that multiplies by itself three times to make 125. Compare with nearby cube facts."
+    },
+    {
+      "level": 14,
+      "expression": "cuberoot(216)",
+      "answer": "6",
+      "hint": "Find the whole number that multiplies by itself three times to make 216. Compare with nearby cube facts."
+    },
+    {
+      "level": 15,
+      "expression": "cuberoot(343)",
+      "answer": "7",
+      "hint": "Find the whole number that multiplies by itself three times to make 343. Compare with nearby cube facts."
+    },
+    {
+      "level": 16,
+      "expression": "cuberoot(512)",
+      "answer": "8",
+      "hint": "Find the whole number that multiplies by itself three times to make 512. Compare with nearby cube facts."
+    },
+    {
+      "level": 17,
+      "expression": "cuberoot(729)",
+      "answer": "9",
+      "hint": "Find the whole number that multiplies by itself three times to make 729. Compare with nearby cube facts."
+    },
+    {
+      "level": 18,
+      "expression": "cuberoot(1000)",
+      "answer": "10",
+      "hint": "Find the whole number that multiplies by itself three times to make 1000. Compare with nearby cube facts."
+    },
+    {
+      "level": 19,
+      "expression": "cuberoot(1331)",
+      "answer": "11",
+      "hint": "Find the whole number that multiplies by itself three times to make 1331. Compare with nearby cube facts."
+    },
+    {
+      "level": 20,
+      "expression": "cuberoot(8)",
+      "answer": "2",
+      "hint": "Find the whole number that multiplies by itself three times to make 8. Compare with nearby cube facts."
+    },
+    {
+      "level": 21,
+      "expression": "cuberoot(27)",
+      "answer": "3",
+      "hint": "Find the whole number that multiplies by itself three times to make 27. Compare with nearby cube facts."
+    },
+    {
+      "level": 22,
+      "expression": "cuberoot(64)",
+      "answer": "4",
+      "hint": "Find the whole number that multiplies by itself three times to make 64. Compare with nearby cube facts."
+    },
+    {
+      "level": 23,
+      "expression": "cuberoot(125)",
+      "answer": "5",
+      "hint": "Find the whole number that multiplies by itself three times to make 125. Compare with nearby cube facts."
+    },
+    {
+      "level": 24,
+      "expression": "cuberoot(216)",
+      "answer": "6",
+      "hint": "Find the whole number that multiplies by itself three times to make 216. Compare with nearby cube facts."
+    },
+    {
+      "level": 25,
+      "expression": "cuberoot(343)",
+      "answer": "7",
+      "hint": "Find the whole number that multiplies by itself three times to make 343. Compare with nearby cube facts."
+    },
+    {
+      "level": 26,
+      "expression": "cuberoot(512)",
+      "answer": "8",
+      "hint": "Find the whole number that multiplies by itself three times to make 512. Compare with nearby cube facts."
+    },
+    {
+      "level": 27,
+      "expression": "cuberoot(729)",
+      "answer": "9",
+      "hint": "Find the whole number that multiplies by itself three times to make 729. Compare with nearby cube facts."
+    },
+    {
+      "level": 28,
+      "expression": "cuberoot(1000)",
+      "answer": "10",
+      "hint": "Find the whole number that multiplies by itself three times to make 1000. Compare with nearby cube facts."
+    },
+    {
+      "level": 29,
+      "expression": "cuberoot(1331)",
+      "answer": "11",
+      "hint": "Find the whole number that multiplies by itself three times to make 1331. Compare with nearby cube facts."
+    },
+    {
+      "level": 30,
+      "expression": "cuberoot(8)",
+      "answer": "2",
+      "hint": "Find the whole number that multiplies by itself three times to make 8. Compare with nearby cube facts."
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "gameId": "true_false",
+  "levels": [
+    {
+      "level": 1,
+      "expression": "2 * 2 = 24",
+      "answer": "False",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 2,
+      "expression": "9 + 6 = 15",
+      "answer": "True",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 3,
+      "expression": "18 - 7 = 12",
+      "answer": "False",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 4,
+      "expression": "5 * 8 = 40",
+      "answer": "True",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 5,
+      "expression": "72 / 9 = 7",
+      "answer": "False",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 6,
+      "expression": "14 + 19 = 33",
+      "answer": "True",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 7,
+      "expression": "63 - 25 = 39",
+      "answer": "False",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 8,
+      "expression": "11 * 6 = 66",
+      "answer": "True",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 9,
+      "expression": "96 / 12 = 6",
+      "answer": "False",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 10,
+      "expression": "48 + 37 = 85",
+      "answer": "True",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 11,
+      "expression": "100 - 45 = 65",
+      "answer": "False",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 12,
+      "expression": "13 * 7 = 91",
+      "answer": "True",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 13,
+      "expression": "144 / 16 = 8",
+      "answer": "False",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 14,
+      "expression": "57 + 68 = 125",
+      "answer": "True",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 15,
+      "expression": "132 - 76 = 58",
+      "answer": "False",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 16,
+      "expression": "15 * 9 = 135",
+      "answer": "True",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 17,
+      "expression": "169 / 13 = 12",
+      "answer": "False",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 18,
+      "expression": "88 + 77 = 165",
+      "answer": "True",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 19,
+      "expression": "201 - 89 = 111",
+      "answer": "False",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 20,
+      "expression": "18 * 8 = 144",
+      "answer": "True",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 21,
+      "expression": "225 / 15 = 16",
+      "answer": "False",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 22,
+      "expression": "26 * 6 = 156",
+      "answer": "True",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 23,
+      "expression": "27 * 7 = 190",
+      "answer": "False",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 24,
+      "expression": "28 * 8 = 224",
+      "answer": "True",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 25,
+      "expression": "29 * 9 = 262",
+      "answer": "False",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 26,
+      "expression": "30 * 10 = 300",
+      "answer": "True",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 27,
+      "expression": "31 * 2 = 63",
+      "answer": "False",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 28,
+      "expression": "32 * 3 = 96",
+      "answer": "True",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 29,
+      "expression": "33 * 4 = 133",
+      "answer": "False",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    },
+    {
+      "level": 30,
+      "expression": "34 * 5 = 170",
+      "answer": "True",
+      "hint": "Evaluate the left side carefully using order of operations, compare it with the number on the right, then choose True only if both sides match."
+    }
+  ]
+}

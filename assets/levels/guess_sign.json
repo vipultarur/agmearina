@@ -1,0 +1,365 @@
+{
+  "gameId": "guess_sign",
+  "levels": [
+    {
+      "level": 1,
+      "expression": "11 ? 7 = 77",
+      "answer": "*",
+      "hint": "Try each sign one by one. Which sign makes 11 and 7 equal 77?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 2,
+      "expression": "18 ? 6 = 3",
+      "answer": "/",
+      "hint": "Try each sign one by one. Which sign makes 18 and 6 equal 3?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 3,
+      "expression": "24 ? 9 = 33",
+      "answer": "+",
+      "hint": "Try each sign one by one. Which sign makes 24 and 9 equal 33?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 4,
+      "expression": "40 ? 16 = 24",
+      "answer": "-",
+      "hint": "Try each sign one by one. Which sign makes 40 and 16 equal 24?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 5,
+      "expression": "8 ? 12 = 96",
+      "answer": "*",
+      "hint": "Try each sign one by one. Which sign makes 8 and 12 equal 96?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 6,
+      "expression": "42 ? 7 = 6",
+      "answer": "/",
+      "hint": "Try each sign one by one. Which sign makes 42 and 7 equal 6?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 7,
+      "expression": "31 ? 14 = 45",
+      "answer": "+",
+      "hint": "Try each sign one by one. Which sign makes 31 and 14 equal 45?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 8,
+      "expression": "73 ? 28 = 45",
+      "answer": "-",
+      "hint": "Try each sign one by one. Which sign makes 73 and 28 equal 45?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 9,
+      "expression": "13 ? 5 = 65",
+      "answer": "*",
+      "hint": "Try each sign one by one. Which sign makes 13 and 5 equal 65?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 10,
+      "expression": "81 ? 9 = 9",
+      "answer": "/",
+      "hint": "Try each sign one by one. Which sign makes 81 and 9 equal 9?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 11,
+      "expression": "46 ? 27 = 73",
+      "answer": "+",
+      "hint": "Try each sign one by one. Which sign makes 46 and 27 equal 73?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 12,
+      "expression": "96 ? 37 = 59",
+      "answer": "-",
+      "hint": "Try each sign one by one. Which sign makes 96 and 37 equal 59?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 13,
+      "expression": "15 ? 6 = 90",
+      "answer": "*",
+      "hint": "Try each sign one by one. Which sign makes 15 and 6 equal 90?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 14,
+      "expression": "72 ? 8 = 9",
+      "answer": "/",
+      "hint": "Try each sign one by one. Which sign makes 72 and 8 equal 9?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 15,
+      "expression": "58 ? 19 = 77",
+      "answer": "+",
+      "hint": "Try each sign one by one. Which sign makes 58 and 19 equal 77?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 16,
+      "expression": "84 ? 26 = 58",
+      "answer": "-",
+      "hint": "Try each sign one by one. Which sign makes 84 and 26 equal 58?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 17,
+      "expression": "17 ? 7 = 119",
+      "answer": "*",
+      "hint": "Try each sign one by one. Which sign makes 17 and 7 equal 119?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 18,
+      "expression": "96 ? 12 = 8",
+      "answer": "/",
+      "hint": "Try each sign one by one. Which sign makes 96 and 12 equal 8?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 19,
+      "expression": "64 ? 28 = 92",
+      "answer": "+",
+      "hint": "Try each sign one by one. Which sign makes 64 and 28 equal 92?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 20,
+      "expression": "105 ? 47 = 58",
+      "answer": "-",
+      "hint": "Try each sign one by one. Which sign makes 105 and 47 equal 58?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 21,
+      "expression": "19 ? 8 = 152",
+      "answer": "*",
+      "hint": "Try each sign one by one. Which sign makes 19 and 8 equal 152?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 22,
+      "expression": "30 ? 5 = 150",
+      "answer": "*",
+      "hint": "Try each sign one by one. Which sign makes 30 and 5 equal 150?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 23,
+      "expression": "110 ? 11 = 10",
+      "answer": "/",
+      "hint": "Try each sign one by one. Which sign makes 110 and 11 equal 10?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 24,
+      "expression": "94 ? 45 = 49",
+      "answer": "-",
+      "hint": "Try each sign one by one. Which sign makes 94 and 45 equal 49?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 25,
+      "expression": "45 ? 34 = 79",
+      "answer": "+",
+      "hint": "Try each sign one by one. Which sign makes 45 and 34 equal 79?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 26,
+      "expression": "34 ? 9 = 306",
+      "answer": "*",
+      "hint": "Try each sign one by one. Which sign makes 34 and 9 equal 306?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 27,
+      "expression": "35 ? 7 = 5",
+      "answer": "/",
+      "hint": "Try each sign one by one. Which sign makes 35 and 7 equal 5?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 28,
+      "expression": "98 ? 49 = 49",
+      "answer": "-",
+      "hint": "Try each sign one by one. Which sign makes 98 and 49 equal 49?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 29,
+      "expression": "49 ? 38 = 87",
+      "answer": "+",
+      "hint": "Try each sign one by one. Which sign makes 49 and 38 equal 87?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    },
+    {
+      "level": 30,
+      "expression": "38 ? 6 = 228",
+      "answer": "*",
+      "hint": "Try each sign one by one. Which sign makes 38 and 6 equal 228?",
+      "choices": [
+        "+",
+        "*",
+        "/",
+        "-"
+      ]
+    }
+  ]
+}

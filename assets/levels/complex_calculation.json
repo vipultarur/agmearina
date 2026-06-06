@@ -1,0 +1,365 @@
+{
+  "gameId": "complex_calculation",
+  "levels": [
+    {
+      "level": 1,
+      "expression": "37 - 38 - ? = -27",
+      "answer": "26",
+      "hint": "First calculate 37 - 38. Then think what number you need to subtract to get -27. You can also rearrange: ? = 37 - 38 + 27.",
+      "choices": [
+        "36",
+        "18",
+        "26",
+        "16"
+      ]
+    },
+    {
+      "level": 2,
+      "expression": "15 + 8 * ? = 55",
+      "answer": "5",
+      "hint": "First multiply 8 by the missing number, then add 15. Or subtract 15 from 55 to isolate the product, then divide that result by 8.",
+      "choices": [
+        "4",
+        "5",
+        "6",
+        "7"
+      ]
+    },
+    {
+      "level": 3,
+      "expression": "90 / 3 + ? = 47",
+      "answer": "17",
+      "hint": "First divide 90 by 3. Then subtract that result from 47 to find the missing add-on. Rearrange: ? = 47 - (90 / 3).",
+      "choices": [
+        "15",
+        "16",
+        "17",
+        "18"
+      ]
+    },
+    {
+      "level": 4,
+      "expression": "? * 6 - 9 = 45",
+      "answer": "9",
+      "hint": "Add 9 to both sides to undo the -9. Then divide the new total by 6 to find the missing factor. Rearrange: ? = (45 + 9) / 6.",
+      "choices": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ]
+    },
+    {
+      "level": 5,
+      "expression": "120 - ? * 4 = 76",
+      "answer": "11",
+      "hint": "Remember that ? * 4 is subtracted from 120. Subtract 76 from 120 to isolate the product, then divide by 4. Rearrange: ? = (120 - 76) / 4.",
+      "choices": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ]
+    },
+    {
+      "level": 6,
+      "expression": "18 + ? / 2 = 34",
+      "answer": "32",
+      "hint": "Subtract 18 from 34 to isolate ? / 2. Then multiply that result by 2. Rearrange: ? = (34 - 18) * 2.",
+      "choices": [
+        "28",
+        "30",
+        "32",
+        "34"
+      ]
+    },
+    {
+      "level": 7,
+      "expression": "7 * ? + 13 = 76",
+      "answer": "9",
+      "hint": "Undo the +13 first by subtracting 13 from 76. That leaves 7 * ?, so divide by 7 to find the missing number.",
+      "choices": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ]
+    },
+    {
+      "level": 8,
+      "expression": "144 / ? - 5 = 7",
+      "answer": "12",
+      "hint": "Add 5 to both sides so the division part is alone. Then find what number 144 must be divided by to reach that result. Rearrange: ? = 144 / (7 + 5).",
+      "choices": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ]
+    },
+    {
+      "level": 9,
+      "expression": "? + 6 * 8 = 91",
+      "answer": "43",
+      "hint": "Calculate 6 * 8 first because multiplication comes before addition. Then subtract that product from 91. Rearrange: ? = 91 - (6 * 8).",
+      "choices": [
+        "41",
+        "42",
+        "43",
+        "44"
+      ]
+    },
+    {
+      "level": 10,
+      "expression": "200 - 9 * ? = 119",
+      "answer": "9",
+      "hint": "Move the 119 away from 200 to find the value of 9 * ?. Then divide that difference by 9. Rearrange: ? = (200 - 119) / 9.",
+      "choices": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ]
+    },
+    {
+      "level": 11,
+      "expression": "64 + ? / 4 = 83",
+      "answer": "76",
+      "hint": "Subtract 64 from 83 to isolate ? / 4. Then multiply that result by 4. Rearrange: ? = (83 - 64) * 4.",
+      "choices": [
+        "72",
+        "76",
+        "80",
+        "84"
+      ]
+    },
+    {
+      "level": 12,
+      "expression": "11 * ? - 17 = 93",
+      "answer": "10",
+      "hint": "Add 17 to both sides to undo the subtraction. Then divide the new total by 11. Rearrange: ? = (93 + 17) / 11.",
+      "choices": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "level": 13,
+      "expression": "225 / ? + 14 = 29",
+      "answer": "15",
+      "hint": "Subtract 14 from 29 so 225 / ? is alone. Then ask what number 225 is divided by to make that result. Rearrange: ? = 225 / (29 - 14).",
+      "choices": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "level": 14,
+      "expression": "? - 12 * 7 = 39",
+      "answer": "123",
+      "hint": "Multiply 12 by 7 first. Since that product is subtracted from ?, add the product to 39. Rearrange: ? = 39 + (12 * 7).",
+      "choices": [
+        "121",
+        "122",
+        "123",
+        "124"
+      ]
+    },
+    {
+      "level": 15,
+      "expression": "16 * ? + 8 = 136",
+      "answer": "8",
+      "hint": "Subtract 8 from 136 to isolate 16 * ?. Then divide by 16. Rearrange: ? = (136 - 8) / 16.",
+      "choices": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "level": 16,
+      "expression": "180 / 9 + ? = 52",
+      "answer": "32",
+      "hint": "First calculate 180 / 9. Then subtract that result from 52 to find the missing add-on. Rearrange: ? = 52 - (180 / 9).",
+      "choices": [
+        "30",
+        "31",
+        "32",
+        "33"
+      ]
+    },
+    {
+      "level": 17,
+      "expression": "? * 5 - 44 = 31",
+      "answer": "15",
+      "hint": "Add 44 to both sides to undo the -44. Then divide by 5 to find the missing factor. Rearrange: ? = (31 + 44) / 5.",
+      "choices": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "level": 18,
+      "expression": "250 - ? / 2 = 191",
+      "answer": "118",
+      "hint": "The term ? / 2 is being subtracted from 250. Subtract 191 from 250 to isolate ? / 2, then multiply by 2. Rearrange: ? = (250 - 191) * 2.",
+      "choices": [
+        "116",
+        "118",
+        "120",
+        "122"
+      ]
+    },
+    {
+      "level": 19,
+      "expression": "19 + 13 * ? = 162",
+      "answer": "11",
+      "hint": "Subtract 19 from 162 to isolate 13 * ?. Then divide by 13. Rearrange: ? = (162 - 19) / 13.",
+      "choices": [
+        "10",
+        "11",
+        "12",
+        "13"
+      ]
+    },
+    {
+      "level": 20,
+      "expression": "300 / ? + 25 = 50",
+      "answer": "12",
+      "hint": "Subtract 25 from 50 so 300 / ? is alone. Then ask what number 300 is divided by to make that result. Rearrange: ? = 300 / (50 - 25).",
+      "choices": [
+        "10",
+        "11",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "level": 21,
+      "expression": "? - 14 * 9 = 88",
+      "answer": "214",
+      "hint": "Multiply 14 by 9 first. Since that product is subtracted from ?, add it to 88. Rearrange: ? = 88 + (14 * 9).",
+      "choices": [
+        "212",
+        "213",
+        "214",
+        "215"
+      ]
+    },
+    {
+      "level": 22,
+      "expression": "37 + ? * 7 = 247",
+      "answer": "30",
+      "hint": "Subtract 37 from 247 to isolate ? * 7. Then divide by 7. Rearrange: ? = (247 - 37) / 7.",
+      "choices": [
+        "28",
+        "29",
+        "30",
+        "31"
+      ]
+    },
+    {
+      "level": 23,
+      "expression": "38 + ? * 8 = 286",
+      "answer": "31",
+      "hint": "Subtract 38 from 286 to isolate ? * 8. Then divide by 8. Rearrange: ? = (286 - 38) / 8.",
+      "choices": [
+        "29",
+        "30",
+        "31",
+        "32"
+      ]
+    },
+    {
+      "level": 24,
+      "expression": "39 + ? * 3 = 135",
+      "answer": "32",
+      "hint": "Subtract 39 from 135 to isolate ? * 3. Then divide by 3. Rearrange: ? = (135 - 39) / 3.",
+      "choices": [
+        "30",
+        "31",
+        "32",
+        "33"
+      ]
+    },
+    {
+      "level": 25,
+      "expression": "40 + ? * 4 = 172",
+      "answer": "33",
+      "hint": "Subtract 40 from 172 to isolate ? * 4. Then divide by 4. Rearrange: ? = (172 - 40) / 4.",
+      "choices": [
+        "31",
+        "32",
+        "33",
+        "34"
+      ]
+    },
+    {
+      "level": 26,
+      "expression": "41 + ? * 5 = 211",
+      "answer": "34",
+      "hint": "Subtract 41 from 211 to isolate ? * 5. Then divide by 5. Rearrange: ? = (211 - 41) / 5.",
+      "choices": [
+        "32",
+        "33",
+        "34",
+        "35"
+      ]
+    },
+    {
+      "level": 27,
+      "expression": "42 + ? * 6 = 252",
+      "answer": "35",
+      "hint": "Subtract 42 from 252 to isolate ? * 6. Then divide by 6. Rearrange: ? = (252 - 42) / 6.",
+      "choices": [
+        "33",
+        "34",
+        "35",
+        "36"
+      ]
+    },
+    {
+      "level": 28,
+      "expression": "43 + ? * 7 = 295",
+      "answer": "36",
+      "hint": "Subtract 43 from 295 to isolate ? * 7. Then divide by 7. Rearrange: ? = (295 - 43) / 7.",
+      "choices": [
+        "34",
+        "35",
+        "36",
+        "37"
+      ]
+    },
+    {
+      "level": 29,
+      "expression": "44 + ? * 8 = 340",
+      "answer": "37",
+      "hint": "Subtract 44 from 340 to isolate ? * 8. Then divide by 8. Rearrange: ? = (340 - 44) / 8.",
+      "choices": [
+        "35",
+        "36",
+        "37",
+        "38"
+      ]
+    },
+    {
+      "level": 30,
+      "expression": "45 + ? * 3 = 159",
+      "answer": "38",
+      "hint": "Subtract 45 from 159 to isolate ? * 3. Then divide by 3. Rearrange: ? = (159 - 45) / 3.",
+      "choices": [
+        "36",
+        "37",
+        "38",
+        "39"
+      ]
+    }
+  ]
+}

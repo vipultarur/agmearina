@@ -1,0 +1,185 @@
+{
+  "gameId": "calculator",
+  "levels": [
+    {
+      "level": 1,
+      "expression": "14 * 7",
+      "answer": "98",
+      "hint": "Use place value multiplication. Break 14 into 10 + 4, multiply each part by 7, then add the partial products together."
+    },
+    {
+      "level": 2,
+      "expression": "18 * 8",
+      "answer": "144",
+      "hint": "Use place value multiplication. Break 18 into 10 + 8, multiply each part by 8, then add the partial products together."
+    },
+    {
+      "level": 3,
+      "expression": "22 * 9",
+      "answer": "198",
+      "hint": "Use place value multiplication. Break 22 into 20 + 2, multiply each part by 9, then add the partial products together."
+    },
+    {
+      "level": 4,
+      "expression": "26 * 10",
+      "answer": "260",
+      "hint": "Use place value multiplication. Break 26 into 20 + 6, multiply each part by 10, then add the partial products together."
+    },
+    {
+      "level": 5,
+      "expression": "17 * 8",
+      "answer": "136",
+      "hint": "Break 17 into 10 + 7. First multiply 8 by 7, then multiply 8 by 10, and finally add both results together. This is the distributive method of multiplication."
+    },
+    {
+      "level": 6,
+      "expression": "34 * 12",
+      "answer": "408",
+      "hint": "Use place value multiplication. Break 34 into 30 + 4, multiply each part by 12, then add the partial products together."
+    },
+    {
+      "level": 7,
+      "expression": "38 * 13",
+      "answer": "494",
+      "hint": "Use place value multiplication. Break 38 into 30 + 8, multiply each part by 13, then add the partial products together."
+    },
+    {
+      "level": 8,
+      "expression": "42 * 14",
+      "answer": "588",
+      "hint": "Use place value multiplication. Break 42 into 40 + 2, multiply each part by 14, then add the partial products together."
+    },
+    {
+      "level": 9,
+      "expression": "46 * 15",
+      "answer": "690",
+      "hint": "Use place value multiplication. Break 46 into 40 + 6, multiply each part by 15, then add the partial products together."
+    },
+    {
+      "level": 10,
+      "expression": "50 * 16",
+      "answer": "800",
+      "hint": "Use place value multiplication. Break 50 into 50, multiply each part by 16, then add the partial products together."
+    },
+    {
+      "level": 11,
+      "expression": "54 * 17",
+      "answer": "918",
+      "hint": "Use place value multiplication. Break 54 into 50 + 4, multiply each part by 17, then add the partial products together."
+    },
+    {
+      "level": 12,
+      "expression": "58 * 18",
+      "answer": "1044",
+      "hint": "Use place value multiplication. Break 58 into 50 + 8, multiply each part by 18, then add the partial products together."
+    },
+    {
+      "level": 13,
+      "expression": "62 * 19",
+      "answer": "1178",
+      "hint": "Use place value multiplication. Break 62 into 60 + 2, multiply each part by 19, then add the partial products together."
+    },
+    {
+      "level": 14,
+      "expression": "66 * 20",
+      "answer": "1320",
+      "hint": "Use place value multiplication. Break 66 into 60 + 6, multiply each part by 20, then add the partial products together."
+    },
+    {
+      "level": 15,
+      "expression": "70 * 21",
+      "answer": "1470",
+      "hint": "Use place value multiplication. Break 70 into 70, multiply each part by 21, then add the partial products together."
+    },
+    {
+      "level": 16,
+      "expression": "74 * 22",
+      "answer": "1628",
+      "hint": "Use place value multiplication. Break 74 into 70 + 4, multiply each part by 22, then add the partial products together."
+    },
+    {
+      "level": 17,
+      "expression": "78 * 23",
+      "answer": "1794",
+      "hint": "Use place value multiplication. Break 78 into 70 + 8, multiply each part by 23, then add the partial products together."
+    },
+    {
+      "level": 18,
+      "expression": "82 * 24",
+      "answer": "1968",
+      "hint": "Use place value multiplication. Break 82 into 80 + 2, multiply each part by 24, then add the partial products together."
+    },
+    {
+      "level": 19,
+      "expression": "86 * 25",
+      "answer": "2150",
+      "hint": "Use place value multiplication. Break 86 into 80 + 6, multiply each part by 25, then add the partial products together."
+    },
+    {
+      "level": 20,
+      "expression": "90 * 26",
+      "answer": "2340",
+      "hint": "Use place value multiplication. Break 90 into 90, multiply each part by 26, then add the partial products together."
+    },
+    {
+      "level": 21,
+      "expression": "94 * 27",
+      "answer": "2538",
+      "hint": "Use place value multiplication. Break 94 into 90 + 4, multiply each part by 27, then add the partial products together."
+    },
+    {
+      "level": 22,
+      "expression": "98 * 28",
+      "answer": "2744",
+      "hint": "Use place value multiplication. Break 98 into 90 + 8, multiply each part by 28, then add the partial products together."
+    },
+    {
+      "level": 23,
+      "expression": "102 * 29",
+      "answer": "2958",
+      "hint": "Use place value multiplication. Break 102 into 100 + 2, multiply each part by 29, then add the partial products together."
+    },
+    {
+      "level": 24,
+      "expression": "106 * 30",
+      "answer": "3180",
+      "hint": "Use place value multiplication. Break 106 into 100 + 6, multiply each part by 30, then add the partial products together."
+    },
+    {
+      "level": 25,
+      "expression": "110 * 31",
+      "answer": "3410",
+      "hint": "Use place value multiplication. Break 110 into 100 + 10, multiply each part by 31, then add the partial products together."
+    },
+    {
+      "level": 26,
+      "expression": "114 * 32",
+      "answer": "3648",
+      "hint": "Use place value multiplication. Break 114 into 100 + 10 + 4, multiply each part by 32, then add the partial products together."
+    },
+    {
+      "level": 27,
+      "expression": "118 * 33",
+      "answer": "3894",
+      "hint": "Use place value multiplication. Break 118 into 100 + 10 + 8, multiply each part by 33, then add the partial products together."
+    },
+    {
+      "level": 28,
+      "expression": "122 * 34",
+      "answer": "4148",
+      "hint": "Use place value multiplication. Break 122 into 100 + 20 + 2, multiply each part by 34, then add the partial products together."
+    },
+    {
+      "level": 29,
+      "expression": "126 * 35",
+      "answer": "4410",
+      "hint": "Use place value multiplication. Break 126 into 100 + 20 + 6, multiply each part by 35, then add the partial products together."
+    },
+    {
+      "level": 30,
+      "expression": "130 * 36",
+      "answer": "4680",
+      "hint": "Use place value multiplication. Break 130 into 100 + 30, multiply each part by 36, then add the partial products together."
+    }
+  ]
+}

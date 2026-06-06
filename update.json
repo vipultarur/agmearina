@@ -1,0 +1,129 @@
+{
+  "gameId": "number_pyramid",
+  "totalLevels": 440,
+  "groups": [
+    {
+      "label": "All {+},{-},{*},{/}",
+      "phase": 1,
+      "levels": [
+        {
+          "level": 1,
+          "ops": { "op1": "+", "op2": "+", "op3": "+" },
+          "rows": [["?"], ["13", "15"], ["9", "4", "11"]],
+          "answer": "28",
+          "hint": "Start from bottom. Use + , + and + operations on the numbers below to get the number above."
+        },
+        {
+          "level": 2,
+          "ops": { "op1": "-", "op2": "-", "op3": "-" },
+          "rows": [["?"], ["10", "3"], ["15", "5", "2"]],
+          "answer": "7",
+          "hint": "Start from bottom. Use - , - and - operations on the numbers below to get the number above."
+        },
+        {
+          "level": 3,
+          "ops": { "op1": "*", "op2": "*", "op3": "*" },
+          "rows": [["?"], ["21", "18"], ["7", "3", "6"]],
+          "answer": "378",
+          "hint": "Start from bottom. Use * , * and * operations on the numbers below to get the number above."
+        },
+        {
+          "level": 4,
+          "ops": { "op1": "/", "op2": "/", "op3": "/" },
+          "rows": [["?"], ["6", "1"], ["18", "3", "3"]],
+          "answer": "6",
+          "hint": "Start from bottom. Use / , / and / operations on the numbers below to get the number above."
+        },
+        {
+          "level": 5,
+          "ops": { "op1": "*", "op2": "*", "op3": "*" },
+          "rows": [["?"], ["14", "56"], ["2", "7", "8"]],
+          "answer": "784",
+          "hint": "Start from bottom. Use * , * and * operations on the numbers below to get the number above."
+        },
+        {
+          "level": 6,
+          "ops": { "op1": "-", "op2": "-", "op3": "-" },
+          "rows": [["?"], ["4", "1"], ["11", "7", "6"]],
+          "answer": "3",
+          "hint": "Start from bottom. Use - , - and - operations on the numbers below to get the number above."
+        },
+        {
+          "level": 7,
+          "ops": { "op1": "/", "op2": "*", "op3": "/" },
+          "rows": [["?"], ["120", "2"], ["10", "12", "6"]],
+          "answer": "60",
+          "hint": "Start from bottom. Use / , * and / operations on the numbers below to get the number above."
+        },
+        {
+          "level": 8,
+          "ops": { "op1": "+", "op2": "+", "op3": "+" },
+          "rows": [["?"], ["16", "15"], ["6", "10", "5"]],
+          "answer": "31",
+          "hint": "Start from bottom. Use + , + and + operations on the numbers below to get the number above."
+        }
+      ]
+    },
+    {
+      "label": "All {+,-}, {+,*}, {+,/}, {+,%}, {-,*}, {-,/}, {-,%}, {*,/}",
+      "phase": 2,
+      "levels": [
+        {
+          "level": 9,
+          "ops": { "op1": "/", "op2": "*", "op3": "*" },
+          "rows": [["?"], ["32", "8"], ["8", "4", "2"]],
+          "answer": "4",
+          "hint": "Start from bottom. Use / , * and * operations on the numbers below to get the number above."
+        },
+        {
+          "level": 10,
+          "ops": { "op1": "*", "op2": "*", "op3": "/" },
+          "rows": [["?"], ["48", "2"], ["12", "4", "2"]],
+          "answer": "96",
+          "hint": "Start from bottom. Use * , * and / operations on the numbers below to get the number above."
+        },
+        {
+          "level": 11,
+          "ops": { "op1": "*", "op2": "-", "op3": "*" },
+          "rows": [["?"], ["18", "2"], ["6", "3", "2"]],
+          "answer": "36",
+          "hint": "Start from bottom. Use * , - and * operations on the numbers below to get the number above."
+        },
+        {
+          "level": 12,
+          "ops": { "op1": "/", "op2": "*", "op3": "/" },
+          "rows": [["?"], ["45", "3"], ["5", "9", "3"]],
+          "answer": "15",
+          "hint": "Start from bottom. Use / , * and / operations on the numbers below to get the number above."
+        }
+      ]
+    },
+    {
+      "label": "All {+,-,*},{+,-,/},{+,*,-},{+,*,/},{+,/,-},{+,/,*},{-,+,*},{-,+,/},{-,*,+},{-,*,/},{-,/,+},{-,/,*},{*,+,-},{*,+,/},{*,-,+},{*,-,/},{*,/,+},{*,/-},{/,+,-},{/,+,*},{/,-,+},{/,-,*},{/,*,+},{/,*,-}",
+      "phase": 3,
+      "levels": [
+        {
+          "level": 13,
+          "ops": { "op1": "/", "op2": "*", "op3": "-" },
+          "rows": [["?"], ["18", "3"], ["3", "6", "3"]],
+          "answer": "6",
+          "hint": "Start from bottom. Use / , * and - operations on the numbers below to get the number above."
+        },
+        {
+          "level": 14,
+          "ops": { "op1": "*", "op2": "/", "op3": "+" },
+          "rows": [["?"], ["48", "4"], ["8", "6", "2"]],
+          "answer": "18",
+          "hint": "Start from bottom. Use * , / and + operations on the numbers below to get the number above."
+        },
+        {
+          "level": 15,
+          "ops": { "op1": "*", "op2": "*", "op3": "/" },
+          "rows": [["?"], ["72", "4"], ["8", "9", "2"]],
+          "answer": "144",
+          "hint": "Start from bottom. Use * , * and / operations on the numbers below to get the number above."
+        }
+      ]
+    }
+  ]
+}

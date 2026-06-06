@@ -1,0 +1,185 @@
+{
+  "gameId": "square_root",
+  "levels": [
+    {
+      "level": 1,
+      "expression": "sqrt(16)",
+      "answer": "4",
+      "hint": "Find the whole number that multiplies by itself to make 16. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 2,
+      "expression": "sqrt(25)",
+      "answer": "5",
+      "hint": "Find the whole number that multiplies by itself to make 25. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 3,
+      "expression": "sqrt(36)",
+      "answer": "6",
+      "hint": "Find the whole number that multiplies by itself to make 36. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 4,
+      "expression": "sqrt(49)",
+      "answer": "7",
+      "hint": "Find the whole number that multiplies by itself to make 49. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 5,
+      "expression": "sqrt(64)",
+      "answer": "8",
+      "hint": "Find the whole number that multiplies by itself to make 64. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 6,
+      "expression": "sqrt(81)",
+      "answer": "9",
+      "hint": "Find the whole number that multiplies by itself to make 81. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 7,
+      "expression": "sqrt(100)",
+      "answer": "10",
+      "hint": "Find the whole number that multiplies by itself to make 100. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 8,
+      "expression": "sqrt(121)",
+      "answer": "11",
+      "hint": "Find the whole number that multiplies by itself to make 121. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 9,
+      "expression": "sqrt(144)",
+      "answer": "12",
+      "hint": "Find the whole number that multiplies by itself to make 144. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 10,
+      "expression": "sqrt(169)",
+      "answer": "13",
+      "hint": "Find the whole number that multiplies by itself to make 169. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 11,
+      "expression": "sqrt(196)",
+      "answer": "14",
+      "hint": "Find the whole number that multiplies by itself to make 196. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 12,
+      "expression": "sqrt(225)",
+      "answer": "15",
+      "hint": "Find the whole number that multiplies by itself to make 225. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 13,
+      "expression": "sqrt(256)",
+      "answer": "16",
+      "hint": "Find the whole number that multiplies by itself to make 256. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 14,
+      "expression": "sqrt(289)",
+      "answer": "17",
+      "hint": "Find the whole number that multiplies by itself to make 289. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 15,
+      "expression": "sqrt(324)",
+      "answer": "18",
+      "hint": "Find the whole number that multiplies by itself to make 324. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 16,
+      "expression": "sqrt(361)",
+      "answer": "19",
+      "hint": "Find the whole number that multiplies by itself to make 361. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 17,
+      "expression": "sqrt(400)",
+      "answer": "20",
+      "hint": "Find the whole number that multiplies by itself to make 400. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 18,
+      "expression": "sqrt(441)",
+      "answer": "21",
+      "hint": "Find the whole number that multiplies by itself to make 441. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 19,
+      "expression": "sqrt(484)",
+      "answer": "22",
+      "hint": "Find the whole number that multiplies by itself to make 484. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 20,
+      "expression": "sqrt(529)",
+      "answer": "23",
+      "hint": "Find the whole number that multiplies by itself to make 529. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 21,
+      "expression": "sqrt(576)",
+      "answer": "24",
+      "hint": "Find the whole number that multiplies by itself to make 576. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 22,
+      "expression": "sqrt(625)",
+      "answer": "25",
+      "hint": "Find the whole number that multiplies by itself to make 625. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 23,
+      "expression": "sqrt(676)",
+      "answer": "26",
+      "hint": "Find the whole number that multiplies by itself to make 676. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 24,
+      "expression": "sqrt(729)",
+      "answer": "27",
+      "hint": "Find the whole number that multiplies by itself to make 729. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 25,
+      "expression": "sqrt(784)",
+      "answer": "28",
+      "hint": "Find the whole number that multiplies by itself to make 784. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 26,
+      "expression": "sqrt(841)",
+      "answer": "29",
+      "hint": "Find the whole number that multiplies by itself to make 841. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 27,
+      "expression": "sqrt(900)",
+      "answer": "30",
+      "hint": "Find the whole number that multiplies by itself to make 900. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 28,
+      "expression": "sqrt(961)",
+      "answer": "31",
+      "hint": "Find the whole number that multiplies by itself to make 961. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 29,
+      "expression": "sqrt(1024)",
+      "answer": "32",
+      "hint": "Find the whole number that multiplies by itself to make 1024. Use nearby square facts to narrow it down."
+    },
+    {
+      "level": 30,
+      "expression": "sqrt(1089)",
+      "answer": "33",
+      "hint": "Find the whole number that multiplies by itself to make 1089. Use nearby square facts to narrow it down."
+    }
+  ]
+}

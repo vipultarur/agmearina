@@ -1,0 +1,185 @@
+{
+  "gameId": "mental_arithmetic",
+  "levels": [
+    {
+      "level": 1,
+      "expression": "7",
+      "answer": "7",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 2,
+      "expression": "8",
+      "answer": "8",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 3,
+      "expression": "9",
+      "answer": "9",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 4,
+      "expression": "10",
+      "answer": "10",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 5,
+      "expression": "11",
+      "answer": "11",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 6,
+      "expression": "12",
+      "answer": "12",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 7,
+      "expression": "13",
+      "answer": "13",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 8,
+      "expression": "14",
+      "answer": "14",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 9,
+      "expression": "15",
+      "answer": "15",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 10,
+      "expression": "16",
+      "answer": "16",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 11,
+      "expression": "17",
+      "answer": "17",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 12,
+      "expression": "18",
+      "answer": "18",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 13,
+      "expression": "19",
+      "answer": "19",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 14,
+      "expression": "20",
+      "answer": "20",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 15,
+      "expression": "21",
+      "answer": "21",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 16,
+      "expression": "22",
+      "answer": "22",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 17,
+      "expression": "23",
+      "answer": "23",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 18,
+      "expression": "24",
+      "answer": "24",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 19,
+      "expression": "25",
+      "answer": "25",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 20,
+      "expression": "26",
+      "answer": "26",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 21,
+      "expression": "27",
+      "answer": "27",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 22,
+      "expression": "28",
+      "answer": "28",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 23,
+      "expression": "29",
+      "answer": "29",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 24,
+      "expression": "30",
+      "answer": "30",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 25,
+      "expression": "31",
+      "answer": "31",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 26,
+      "expression": "32",
+      "answer": "32",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 27,
+      "expression": "33",
+      "answer": "33",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 28,
+      "expression": "34",
+      "answer": "34",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 29,
+      "expression": "35",
+      "answer": "35",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    },
+    {
+      "level": 30,
+      "expression": "36",
+      "answer": "36",
+      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+    }
+  ]
+}

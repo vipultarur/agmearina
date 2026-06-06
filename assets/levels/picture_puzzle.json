@@ -1,0 +1,1439 @@
+{
+  "gameId": "picture_puzzle",
+  "levels": [
+    {
+      "level": 1,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 2,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 3,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 4,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 5,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 6,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 7,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 8,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 9,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 10,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 11,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 12,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 13,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 14,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 15,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 16,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 17,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 18,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 19,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 20,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 21,
+      "expression": "shape puzzle",
+      "answer": "21",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "result": "24"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "result": "16"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "result": "22"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 22,
+      "expression": "shape puzzle",
+      "answer": "81",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "81"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "77"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "83"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 23,
+      "expression": "shape puzzle",
+      "answer": "84",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "84"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "80"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "86"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 24,
+      "expression": "shape puzzle",
+      "answer": "87",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "87"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "83"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "89"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 25,
+      "expression": "shape puzzle",
+      "answer": "90",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "90"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "86"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "92"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 26,
+      "expression": "shape puzzle",
+      "answer": "93",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "93"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "89"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "95"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 27,
+      "expression": "shape puzzle",
+      "answer": "96",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "96"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "92"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "98"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 28,
+      "expression": "shape puzzle",
+      "answer": "99",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "99"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "95"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "101"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 29,
+      "expression": "shape puzzle",
+      "answer": "102",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "102"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "98"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "104"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    },
+    {
+      "level": 30,
+      "expression": "shape puzzle",
+      "answer": "105",
+      "hint": "Use the completed rows to work out each shape value first. Substitute those shape values into the final boxed row to find the missing result.",
+      "data": {
+        "rows": [
+          {
+            "shapes": [
+              "circle",
+              "circle",
+              "circle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "105"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "triangle"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "101"
+          },
+          {
+            "shapes": [
+              "triangle",
+              "square",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "107"
+          },
+          {
+            "shapes": [
+              "circle",
+              "triangle",
+              "square"
+            ],
+            "ops": [
+              "+",
+              "+"
+            ],
+            "result": "?",
+            "boxedResult": true
+          }
+        ]
+      }
+    }
+  ]
+}

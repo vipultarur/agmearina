@@ -1,0 +1,60 @@
+name: mathspazzel
+description: A screenshot-inspired Flutter math puzzle UI replica.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^6.5.1
+  flutter_bounceable: ^1.2.0
+  flutter_screenutil: ^5.9.3
+  flutter_svg: ^2.2.1
+  share_plus: ^11.1.0
+  shared_preferences: ^2.5.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/sounds/tick.mp3
+    - assets/sounds/right.mp3
+    - assets/sounds/wrong.mp3
+    - assets/sounds/gameover.mp3
+    - assets/hint.svg
+    - assets/images/
+    - assets/levels/
+    - assets/imgYellow/
+    - assets/imgYellowDark/
+    - assets/imgGreen/
+    - assets/imgGreenDark/
+    - assets/imgBlue/
+    - assets/imgBlueDark/
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Regular.ttf
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-Light.ttf
+          weight: 300
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+        - asset: assets/fonts/Poppins-Black.ttf
+          weight: 900
+    - family: OriginalSurfer
+      fonts:
+        - asset: assets/fonts/OriginalSurfer-Regular.ttf
+    - family: Moranga
+      fonts:
+        - asset: assets/fonts/Latinotype%2520-%2520Moranga%2520Bold.otf
+          weight: 700

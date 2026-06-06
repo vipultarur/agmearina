@@ -1,0 +1,365 @@
+{
+  "gameId": "find_missing",
+  "levels": [
+    {
+      "level": 1,
+      "expression": "? + 99 = 148",
+      "answer": "49",
+      "hint": "Subtract 99 from 148 to find the missing number.",
+      "choices": [
+        "39",
+        "59",
+        "49",
+        "69"
+      ]
+    },
+    {
+      "level": 2,
+      "expression": "17 + ? = 45",
+      "answer": "28",
+      "hint": "Subtract 17 from 45 to find the missing number.",
+      "choices": [
+        "26",
+        "27",
+        "28",
+        "29"
+      ]
+    },
+    {
+      "level": 3,
+      "expression": "? - 14 = 23",
+      "answer": "37",
+      "hint": "Add 14 to 23 to find the missing number.",
+      "choices": [
+        "35",
+        "36",
+        "37",
+        "38"
+      ]
+    },
+    {
+      "level": 4,
+      "expression": "64 - ? = 29",
+      "answer": "35",
+      "hint": "Subtract 29 from 64 to find the missing number.",
+      "choices": [
+        "34",
+        "35",
+        "36",
+        "37"
+      ]
+    },
+    {
+      "level": 5,
+      "expression": "? * 5 = 45",
+      "answer": "9",
+      "hint": "Divide 45 by 5 to find the missing number.",
+      "choices": [
+        "7",
+        "8",
+        "9",
+        "10"
+      ]
+    },
+    {
+      "level": 6,
+      "expression": "8 * ? = 72",
+      "answer": "9",
+      "hint": "Divide 72 by 8 to find the missing number.",
+      "choices": [
+        "8",
+        "9",
+        "10",
+        "11"
+      ]
+    },
+    {
+      "level": 7,
+      "expression": "? / 7 = 6",
+      "answer": "42",
+      "hint": "Multiply both sides by 7 to find the missing number.",
+      "choices": [
+        "35",
+        "42",
+        "49",
+        "56"
+      ]
+    },
+    {
+      "level": 8,
+      "expression": "96 / ? = 12",
+      "answer": "8",
+      "hint": "Divide 96 by 12 to find the missing number.",
+      "choices": [
+        "6",
+        "7",
+        "8",
+        "9"
+      ]
+    },
+    {
+      "level": 9,
+      "expression": "? + 38 = 100",
+      "answer": "62",
+      "hint": "Subtract 38 from 100 to find the missing number.",
+      "choices": [
+        "60",
+        "61",
+        "62",
+        "63"
+      ]
+    },
+    {
+      "level": 10,
+      "expression": "49 + ? = 121",
+      "answer": "72",
+      "hint": "Subtract 49 from 121 to find the missing number.",
+      "choices": [
+        "70",
+        "71",
+        "72",
+        "73"
+      ]
+    },
+    {
+      "level": 11,
+      "expression": "? - 27 = 54",
+      "answer": "81",
+      "hint": "Add 27 to 54 to find the missing number.",
+      "choices": [
+        "79",
+        "80",
+        "81",
+        "82"
+      ]
+    },
+    {
+      "level": 12,
+      "expression": "150 - ? = 68",
+      "answer": "82",
+      "hint": "Subtract 68 from 150 to find the missing number.",
+      "choices": [
+        "80",
+        "81",
+        "82",
+        "83"
+      ]
+    },
+    {
+      "level": 13,
+      "expression": "? * 6 = 84",
+      "answer": "14",
+      "hint": "Divide 84 by 6 to find the missing number.",
+      "choices": [
+        "12",
+        "13",
+        "14",
+        "15"
+      ]
+    },
+    {
+      "level": 14,
+      "expression": "11 * ? = 121",
+      "answer": "11",
+      "hint": "Divide 121 by 11 to find the missing number.",
+      "choices": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ]
+    },
+    {
+      "level": 15,
+      "expression": "? / 9 = 14",
+      "answer": "126",
+      "hint": "Multiply both sides by 9 to find the missing number.",
+      "choices": [
+        "108",
+        "117",
+        "126",
+        "135"
+      ]
+    },
+    {
+      "level": 16,
+      "expression": "144 / ? = 16",
+      "answer": "9",
+      "hint": "Divide 144 by 16 to find the missing number.",
+      "choices": [
+        "8",
+        "9",
+        "10",
+        "12"
+      ]
+    },
+    {
+      "level": 17,
+      "expression": "? + 57 = 144",
+      "answer": "87",
+      "hint": "Subtract 57 from 144 to find the missing number.",
+      "choices": [
+        "85",
+        "86",
+        "87",
+        "88"
+      ]
+    },
+    {
+      "level": 18,
+      "expression": "83 + ? = 175",
+      "answer": "92",
+      "hint": "Subtract 83 from 175 to find the missing number.",
+      "choices": [
+        "90",
+        "91",
+        "92",
+        "93"
+      ]
+    },
+    {
+      "level": 19,
+      "expression": "? - 64 = 73",
+      "answer": "137",
+      "hint": "Add 64 to 73 to find the missing number.",
+      "choices": [
+        "135",
+        "136",
+        "137",
+        "138"
+      ]
+    },
+    {
+      "level": 20,
+      "expression": "210 - ? = 89",
+      "answer": "121",
+      "hint": "Subtract 89 from 210 to find the missing number.",
+      "choices": [
+        "119",
+        "120",
+        "121",
+        "122"
+      ]
+    },
+    {
+      "level": 21,
+      "expression": "? * 12 = 180",
+      "answer": "15",
+      "hint": "Divide 180 by 12 to find the missing number.",
+      "choices": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "level": 22,
+      "expression": "? * 5 = 75",
+      "answer": "15",
+      "hint": "Divide 75 by 5 to find the missing number.",
+      "choices": [
+        "13",
+        "14",
+        "15",
+        "16"
+      ]
+    },
+    {
+      "level": 23,
+      "expression": "? / 10 = 9",
+      "answer": "90",
+      "hint": "Multiply both sides by 10 to find the missing number.",
+      "choices": [
+        "88",
+        "89",
+        "90",
+        "91"
+      ]
+    },
+    {
+      "level": 24,
+      "expression": "? + 55 = 97",
+      "answer": "42",
+      "hint": "Subtract 55 from 97 to find the missing number.",
+      "choices": [
+        "40",
+        "41",
+        "42",
+        "43"
+      ]
+    },
+    {
+      "level": 25,
+      "expression": "? - 32 = 15",
+      "answer": "47",
+      "hint": "Add 32 to 15 to find the missing number.",
+      "choices": [
+        "45",
+        "46",
+        "47",
+        "48"
+      ]
+    },
+    {
+      "level": 26,
+      "expression": "? * 9 = 63",
+      "answer": "7",
+      "hint": "Divide 63 by 9 to find the missing number.",
+      "choices": [
+        "5",
+        "6",
+        "7",
+        "8"
+      ]
+    },
+    {
+      "level": 27,
+      "expression": "? / 6 = 13",
+      "answer": "78",
+      "hint": "Multiply both sides by 6 to find the missing number.",
+      "choices": [
+        "76",
+        "77",
+        "78",
+        "79"
+      ]
+    },
+    {
+      "level": 28,
+      "expression": "? + 59 = 105",
+      "answer": "46",
+      "hint": "Subtract 59 from 105 to find the missing number.",
+      "choices": [
+        "44",
+        "45",
+        "46",
+        "47"
+      ]
+    },
+    {
+      "level": 29,
+      "expression": "? - 36 = 15",
+      "answer": "51",
+      "hint": "Add 36 to 15 to find the missing number.",
+      "choices": [
+        "49",
+        "50",
+        "51",
+        "52"
+      ]
+    },
+    {
+      "level": 30,
+      "expression": "? * 6 = 66",
+      "answer": "11",
+      "hint": "Divide 66 by 6 to find the missing number.",
+      "choices": [
+        "9",
+        "10",
+        "11",
+        "12"
+      ]
+    }
+  ]
+}

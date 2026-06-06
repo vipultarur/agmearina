@@ -1,0 +1,485 @@
+{
+  "gameId": "magic_triangle",
+  "levels": [
+    {
+      "level": 1,
+      "expression": "10",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 10. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          2,
+          3,
+          1,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "level": 2,
+      "expression": "11",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 11. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          2,
+          3,
+          1,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "level": 3,
+      "expression": "12",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 12. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          2,
+          3,
+          1,
+          4,
+          5,
+          6
+        ]
+      }
+    },
+    {
+      "level": 4,
+      "expression": "13",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 13. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "level": 5,
+      "expression": "14",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 14. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "level": 6,
+      "expression": "15",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 15. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    },
+    {
+      "level": 7,
+      "expression": "16",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 16. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "level": 8,
+      "expression": "17",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 17. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "level": 9,
+      "expression": "18",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 18. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    },
+    {
+      "level": 10,
+      "expression": "19",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 19. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "level": 11,
+      "expression": "20",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 20. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "level": 12,
+      "expression": "21",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 21. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    },
+    {
+      "level": 13,
+      "expression": "22",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 22. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "level": 14,
+      "expression": "23",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 23. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "level": 15,
+      "expression": "24",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 24. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    },
+    {
+      "level": 16,
+      "expression": "25",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 25. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "level": 17,
+      "expression": "26",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 26. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "level": 18,
+      "expression": "27",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 27. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    },
+    {
+      "level": 19,
+      "expression": "28",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 28. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "level": 20,
+      "expression": "29",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 29. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "level": 21,
+      "expression": "30",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 30. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    },
+    {
+      "level": 22,
+      "expression": "31",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 31. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "level": 23,
+      "expression": "32",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 32. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "level": 24,
+      "expression": "33",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 33. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    },
+    {
+      "level": 25,
+      "expression": "34",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 34. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "level": 26,
+      "expression": "35",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 35. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "level": 27,
+      "expression": "36",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 36. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    },
+    {
+      "level": 28,
+      "expression": "37",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 37. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "level": 29,
+      "expression": "38",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 38. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    },
+    {
+      "level": 30,
+      "expression": "39",
+      "answer": "complete",
+      "hint": "Place the numbers so each side of the triangle adds to 39. Try corner numbers carefully because each corner affects two sides.",
+      "data": {
+        "numbers": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    }
+  ]
+}

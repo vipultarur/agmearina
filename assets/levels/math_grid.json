@@ -1,0 +1,995 @@
+{
+  "gameId": "math_grid",
+  "levels": [
+    {
+      "level": 1,
+      "expression": "math grid",
+      "answer": "17",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "3",
+            "*",
+            "4",
+            "+",
+            "5",
+            "=",
+            "?"
+          ],
+          [
+            "4",
+            "+",
+            "6",
+            "=",
+            "10"
+          ],
+          [
+            "10",
+            "-",
+            "4",
+            "=",
+            "6"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 2,
+      "expression": "math grid",
+      "answer": "26",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "4",
+            "*",
+            "5",
+            "+",
+            "6",
+            "=",
+            "?"
+          ],
+          [
+            "5",
+            "+",
+            "7",
+            "=",
+            "12"
+          ],
+          [
+            "11",
+            "-",
+            "5",
+            "=",
+            "6"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 3,
+      "expression": "math grid",
+      "answer": "37",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "5",
+            "*",
+            "6",
+            "+",
+            "7",
+            "=",
+            "?"
+          ],
+          [
+            "6",
+            "+",
+            "8",
+            "=",
+            "14"
+          ],
+          [
+            "12",
+            "-",
+            "6",
+            "=",
+            "6"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 4,
+      "expression": "math grid",
+      "answer": "50",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "6",
+            "*",
+            "7",
+            "+",
+            "8",
+            "=",
+            "?"
+          ],
+          [
+            "7",
+            "+",
+            "9",
+            "=",
+            "16"
+          ],
+          [
+            "13",
+            "-",
+            "7",
+            "=",
+            "6"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 5,
+      "expression": "math grid",
+      "answer": "65",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "7",
+            "*",
+            "8",
+            "+",
+            "9",
+            "=",
+            "?"
+          ],
+          [
+            "8",
+            "+",
+            "10",
+            "=",
+            "18"
+          ],
+          [
+            "14",
+            "-",
+            "8",
+            "=",
+            "6"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 6,
+      "expression": "math grid",
+      "answer": "82",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "8",
+            "*",
+            "9",
+            "+",
+            "10",
+            "=",
+            "?"
+          ],
+          [
+            "9",
+            "+",
+            "11",
+            "=",
+            "20"
+          ],
+          [
+            "15",
+            "-",
+            "9",
+            "=",
+            "6"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 7,
+      "expression": "math grid",
+      "answer": "101",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "9",
+            "*",
+            "10",
+            "+",
+            "11",
+            "=",
+            "?"
+          ],
+          [
+            "10",
+            "+",
+            "12",
+            "=",
+            "22"
+          ],
+          [
+            "16",
+            "-",
+            "10",
+            "=",
+            "6"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 8,
+      "expression": "math grid",
+      "answer": "42",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "10",
+            "*",
+            "3",
+            "+",
+            "12",
+            "=",
+            "?"
+          ],
+          [
+            "11",
+            "+",
+            "5",
+            "=",
+            "16"
+          ],
+          [
+            "17",
+            "-",
+            "3",
+            "=",
+            "14"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 9,
+      "expression": "math grid",
+      "answer": "57",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "11",
+            "*",
+            "4",
+            "+",
+            "13",
+            "=",
+            "?"
+          ],
+          [
+            "12",
+            "+",
+            "6",
+            "=",
+            "18"
+          ],
+          [
+            "18",
+            "-",
+            "4",
+            "=",
+            "14"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 10,
+      "expression": "math grid",
+      "answer": "74",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "12",
+            "*",
+            "5",
+            "+",
+            "14",
+            "=",
+            "?"
+          ],
+          [
+            "13",
+            "+",
+            "7",
+            "=",
+            "20"
+          ],
+          [
+            "19",
+            "-",
+            "5",
+            "=",
+            "14"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 11,
+      "expression": "math grid",
+      "answer": "93",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "13",
+            "*",
+            "6",
+            "+",
+            "15",
+            "=",
+            "?"
+          ],
+          [
+            "14",
+            "+",
+            "8",
+            "=",
+            "22"
+          ],
+          [
+            "20",
+            "-",
+            "6",
+            "=",
+            "14"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 12,
+      "expression": "math grid",
+      "answer": "114",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "14",
+            "*",
+            "7",
+            "+",
+            "16",
+            "=",
+            "?"
+          ],
+          [
+            "15",
+            "+",
+            "9",
+            "=",
+            "24"
+          ],
+          [
+            "21",
+            "-",
+            "7",
+            "=",
+            "14"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 13,
+      "expression": "math grid",
+      "answer": "137",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "15",
+            "*",
+            "8",
+            "+",
+            "17",
+            "=",
+            "?"
+          ],
+          [
+            "16",
+            "+",
+            "10",
+            "=",
+            "26"
+          ],
+          [
+            "22",
+            "-",
+            "8",
+            "=",
+            "14"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 14,
+      "expression": "math grid",
+      "answer": "162",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "16",
+            "*",
+            "9",
+            "+",
+            "18",
+            "=",
+            "?"
+          ],
+          [
+            "17",
+            "+",
+            "11",
+            "=",
+            "28"
+          ],
+          [
+            "23",
+            "-",
+            "9",
+            "=",
+            "14"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 15,
+      "expression": "math grid",
+      "answer": "189",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "17",
+            "*",
+            "10",
+            "+",
+            "19",
+            "=",
+            "?"
+          ],
+          [
+            "18",
+            "+",
+            "12",
+            "=",
+            "30"
+          ],
+          [
+            "24",
+            "-",
+            "10",
+            "=",
+            "14"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 16,
+      "expression": "math grid",
+      "answer": "74",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "18",
+            "*",
+            "3",
+            "+",
+            "20",
+            "=",
+            "?"
+          ],
+          [
+            "19",
+            "+",
+            "5",
+            "=",
+            "24"
+          ],
+          [
+            "25",
+            "-",
+            "3",
+            "=",
+            "22"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 17,
+      "expression": "math grid",
+      "answer": "97",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "19",
+            "*",
+            "4",
+            "+",
+            "21",
+            "=",
+            "?"
+          ],
+          [
+            "20",
+            "+",
+            "6",
+            "=",
+            "26"
+          ],
+          [
+            "26",
+            "-",
+            "4",
+            "=",
+            "22"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 18,
+      "expression": "math grid",
+      "answer": "122",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "20",
+            "*",
+            "5",
+            "+",
+            "22",
+            "=",
+            "?"
+          ],
+          [
+            "21",
+            "+",
+            "7",
+            "=",
+            "28"
+          ],
+          [
+            "27",
+            "-",
+            "5",
+            "=",
+            "22"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 19,
+      "expression": "math grid",
+      "answer": "149",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "21",
+            "*",
+            "6",
+            "+",
+            "23",
+            "=",
+            "?"
+          ],
+          [
+            "22",
+            "+",
+            "8",
+            "=",
+            "30"
+          ],
+          [
+            "28",
+            "-",
+            "6",
+            "=",
+            "22"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 20,
+      "expression": "math grid",
+      "answer": "178",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "22",
+            "*",
+            "7",
+            "+",
+            "24",
+            "=",
+            "?"
+          ],
+          [
+            "23",
+            "+",
+            "9",
+            "=",
+            "32"
+          ],
+          [
+            "29",
+            "-",
+            "7",
+            "=",
+            "22"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 21,
+      "expression": "math grid",
+      "answer": "209",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "23",
+            "*",
+            "8",
+            "+",
+            "25",
+            "=",
+            "?"
+          ],
+          [
+            "24",
+            "+",
+            "10",
+            "=",
+            "34"
+          ],
+          [
+            "30",
+            "-",
+            "8",
+            "=",
+            "22"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 22,
+      "expression": "math grid",
+      "answer": "242",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "24",
+            "*",
+            "9",
+            "+",
+            "26",
+            "=",
+            "?"
+          ],
+          [
+            "25",
+            "+",
+            "11",
+            "=",
+            "36"
+          ],
+          [
+            "31",
+            "-",
+            "9",
+            "=",
+            "22"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 23,
+      "expression": "math grid",
+      "answer": "277",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "25",
+            "*",
+            "10",
+            "+",
+            "27",
+            "=",
+            "?"
+          ],
+          [
+            "26",
+            "+",
+            "12",
+            "=",
+            "38"
+          ],
+          [
+            "32",
+            "-",
+            "10",
+            "=",
+            "22"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 24,
+      "expression": "math grid",
+      "answer": "106",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "26",
+            "*",
+            "3",
+            "+",
+            "28",
+            "=",
+            "?"
+          ],
+          [
+            "27",
+            "+",
+            "5",
+            "=",
+            "32"
+          ],
+          [
+            "33",
+            "-",
+            "3",
+            "=",
+            "30"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 25,
+      "expression": "math grid",
+      "answer": "137",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "27",
+            "*",
+            "4",
+            "+",
+            "29",
+            "=",
+            "?"
+          ],
+          [
+            "28",
+            "+",
+            "6",
+            "=",
+            "34"
+          ],
+          [
+            "34",
+            "-",
+            "4",
+            "=",
+            "30"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 26,
+      "expression": "math grid",
+      "answer": "170",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "28",
+            "*",
+            "5",
+            "+",
+            "30",
+            "=",
+            "?"
+          ],
+          [
+            "29",
+            "+",
+            "7",
+            "=",
+            "36"
+          ],
+          [
+            "35",
+            "-",
+            "5",
+            "=",
+            "30"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 27,
+      "expression": "math grid",
+      "answer": "205",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "29",
+            "*",
+            "6",
+            "+",
+            "31",
+            "=",
+            "?"
+          ],
+          [
+            "30",
+            "+",
+            "8",
+            "=",
+            "38"
+          ],
+          [
+            "36",
+            "-",
+            "6",
+            "=",
+            "30"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 28,
+      "expression": "math grid",
+      "answer": "242",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "30",
+            "*",
+            "7",
+            "+",
+            "32",
+            "=",
+            "?"
+          ],
+          [
+            "31",
+            "+",
+            "9",
+            "=",
+            "40"
+          ],
+          [
+            "37",
+            "-",
+            "7",
+            "=",
+            "30"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 29,
+      "expression": "math grid",
+      "answer": "281",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "31",
+            "*",
+            "8",
+            "+",
+            "33",
+            "=",
+            "?"
+          ],
+          [
+            "32",
+            "+",
+            "10",
+            "=",
+            "42"
+          ],
+          [
+            "38",
+            "-",
+            "8",
+            "=",
+            "30"
+          ]
+        ]
+      }
+    },
+    {
+      "level": 30,
+      "expression": "math grid",
+      "answer": "322",
+      "hint": "Look at the completed rows to understand the pattern, then apply the same rule to find the missing answer in the first row.",
+      "data": {
+        "rows": [
+          [
+            "32",
+            "*",
+            "9",
+            "+",
+            "34",
+            "=",
+            "?"
+          ],
+          [
+            "33",
+            "+",
+            "11",
+            "=",
+            "44"
+          ],
+          [
+            "39",
+            "-",
+            "9",
+            "=",
+            "30"
+          ]
+        ]
+      }
+    }
+  ]
+}
