@@ -165,8 +165,6 @@ class _GameResultDialog extends StatelessWidget {
                         height: 0.95,
                       ),
                     ),
-                    SizedBox(width: 10.w),
-                    AppAsset(AssetConstants.trophy, width: 45.r, height: 45.r),
                   ],
                 ),
                 Text(
@@ -205,8 +203,19 @@ class _GameResultDialog extends StatelessWidget {
                   crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
                     ResultActionButton(
+                      key: const ValueKey<String>('result-restart'),
+                      asset: themedAsset(
+                        game.theme,
+                        'restart.svg',
+                        darkMode: darkMode,
+                      ),
+                      color: game.theme.soft,
+                      onTap: onRestart,
+                    ),
+                    SizedBox(width: 28.w),
+                    ResultActionButton(
                       key: ValueKey<String>(
-                        won ? 'result-home' : 'result-restart',
+                        won ? 'result-home' : 'result-share',
                       ),
                       asset: won
                           ? themedAsset(
@@ -214,20 +223,9 @@ class _GameResultDialog extends StatelessWidget {
                               'Home.svg',
                               darkMode: darkMode,
                             )
-                          : themedAsset(
-                              game.theme,
-                              'restart.svg',
-                              darkMode: darkMode,
-                            ),
+                          : AssetConstants.share,
                       color: game.theme.soft,
-                      onTap: won ? onHome : onRestart,
-                    ),
-                    SizedBox(width: 28.w),
-                    ResultActionButton(
-                      key: const ValueKey<String>('result-share'),
-                      asset: AssetConstants.share,
-                      color: game.theme.soft,
-                      onTap: () => _shareResult(game, level, stars),
+                      onTap: won ? onHome : () => _shareResult(game, level, stars),
                     ),
                     SizedBox(width: 28.w),
                     ResultActionButton(

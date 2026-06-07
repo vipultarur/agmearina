@@ -9,16 +9,19 @@ import '../../core/theme/app_text_styles.dart';
 import '../../features/games/domain/entities/game_config.dart';
 import 'app_asset.dart';
 import 'app_motion.dart';
-
+import 'app_motion.dart';
 class SubGameCard extends StatelessWidget {
   final GameConfig game;
   final VoidCallback onTap;
 
-  const SubGameCard({super.key, required this.game, required this.onTap});
+  const SubGameCard({
+    super.key, 
+    required this.game, 
+    required this.onTap,
+  });
 
   @override
   Widget build(BuildContext context) {
-    final state = AppScope.of(context);
     return AppBounce(
       key: ValueKey<String>('subgame-${game.id}'),
       onTap: onTap,
@@ -47,7 +50,6 @@ class SubGameCard extends StatelessWidget {
                       ),
                     ),
                   ),
-                  TrophyPill(count: state.trophyCount(game.id)),
                   SizedBox(height: 16.h),
                   SizedBox(
                     width: double.infinity,
@@ -67,38 +69,6 @@ class SubGameCard extends StatelessWidget {
             ),
           ),
           SizedBox(width: 90.r, height: 90.r, child: AppAsset(game.icon)),
-        ],
-      ),
-    );
-  }
-}
-
-class TrophyPill extends StatelessWidget {
-  final int count;
-
-  const TrophyPill({super.key, required this.count});
-
-  @override
-  Widget build(BuildContext context) {
-    return Container(
-      padding: EdgeInsets.symmetric(horizontal: 18.w, vertical: 7.h),
-      decoration: BoxDecoration(
-        color: AppColors.cardSurface,
-        borderRadius: BorderRadius.circular(AppDimensions.pillRadius),
-        boxShadow: <BoxShadow>[
-          BoxShadow(
-            color: Colors.black.withValues(alpha: 0.10),
-            blurRadius: 12.r,
-            offset: Offset(0, 6.h),
-          ),
-        ],
-      ),
-      child: Row(
-        mainAxisSize: MainAxisSize.min,
-        children: <Widget>[
-          AppAsset(AssetConstants.trophy, width: 22.r, height: 22.r),
-          SizedBox(width: 8.w),
-          Text('$count', style: AppTextStyles.subGameTitle),
         ],
       ),
     );

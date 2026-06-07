@@ -5,6 +5,7 @@ import '../../../../common/widgets/app_motion.dart';
 import '../../../../common/widgets/capped_scaffold.dart';
 import '../../../../common/widgets/category_card.dart';
 import '../../../../common/widgets/store_header.dart';
+
 import '../../../../core/theme/app_text_styles.dart';
 import '../../../../core/utils/navigation.dart';
 import '../../../games/data/game_catalog.dart';
@@ -18,6 +19,7 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+
     return CappedScaffold(
       child: SafeArea(
         child: Column(
@@ -56,8 +58,7 @@ class HomeScreen extends StatelessWidget {
                     child: CategoryCard(
                       title: 'Math Puzzle',
                       theme: mathTheme,
-                      onTap: () =>
-                          pushScreen(context, const MathPuzzleScreen()),
+                      onTap: () => pushScreen(context, const MathPuzzleScreen()),
                     ),
                   ),
                   SizedBox(height: 48.h),
@@ -67,8 +68,7 @@ class HomeScreen extends StatelessWidget {
                     child: CategoryCard(
                       title: 'Memory Puzzle',
                       theme: memoryTheme,
-                      onTap: () =>
-                          pushScreen(context, const MemoryPuzzleScreen()),
+                      onTap: () => pushScreen(context, const MemoryPuzzleScreen()),
                     ),
                   ),
                   SizedBox(height: 48.h),
@@ -78,8 +78,7 @@ class HomeScreen extends StatelessWidget {
                     child: CategoryCard(
                       title: 'Train Your Brain',
                       theme: trainTheme,
-                      onTap: () =>
-                          pushScreen(context, const TrainBrainScreen()),
+                      onTap: () => pushScreen(context, const TrainBrainScreen()),
                     ),
                   ),
                 ],

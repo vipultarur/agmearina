@@ -1,7 +1,6 @@
 class AssetConstants {
   static const coin = 'assets/images/coin.svg';
   static const coinSmall = 'assets/images/ic_coin.svg';
-  static const trophy = 'assets/images/ic_trophy.svg';
   static const star = 'assets/images/star.svg';
   static const starFill = 'assets/images/star_fill.svg';
   static const share = 'assets/images/Share.svg';

@@ -3,183 +3,183 @@
   "levels": [
     {
       "level": 1,
-      "expression": "7",
-      "answer": "7",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "5*10",
+      "answer": "50",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 2,
-      "expression": "8",
-      "answer": "8",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "7-9",
+      "answer": "-2",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 3,
-      "expression": "9",
-      "answer": "9",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "9-6",
+      "answer": "3",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 4,
-      "expression": "10",
-      "answer": "10",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "8*7",
+      "answer": "56",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 5,
-      "expression": "11",
-      "answer": "11",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "4+10-1",
+      "answer": "13",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 6,
-      "expression": "12",
-      "answer": "12",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "2-1*4",
+      "answer": "-2",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 7,
-      "expression": "13",
-      "answer": "13",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "6+6-1",
+      "answer": "11",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 8,
-      "expression": "14",
-      "answer": "14",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "1-2+3",
+      "answer": "2",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 9,
-      "expression": "15",
-      "answer": "15",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "7+6*6",
+      "answer": "43",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 10,
-      "expression": "16",
-      "answer": "16",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "8-4+8+9",
+      "answer": "21",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 11,
-      "expression": "17",
-      "answer": "17",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "8+1*5+2",
+      "answer": "15",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 12,
-      "expression": "18",
-      "answer": "18",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "10*10-9+5",
+      "answer": "96",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 13,
-      "expression": "19",
-      "answer": "19",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "6+7*6+7",
+      "answer": "55",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 14,
-      "expression": "20",
-      "answer": "20",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "8*9+6-7",
+      "answer": "71",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 15,
-      "expression": "21",
-      "answer": "21",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "9*1-1-10-5",
+      "answer": "-7",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 16,
-      "expression": "22",
-      "answer": "22",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "3+9*1-8+4",
+      "answer": "8",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 17,
-      "expression": "23",
-      "answer": "23",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "10-8*9+7-1",
+      "answer": "-56",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 18,
-      "expression": "24",
-      "answer": "24",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "3*1-7*1-1",
+      "answer": "-5",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 19,
-      "expression": "25",
-      "answer": "25",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "5-2-4-1*1",
+      "answer": "-2",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 20,
-      "expression": "26",
-      "answer": "26",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "5*6-4-9+6+5",
+      "answer": "28",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 21,
-      "expression": "27",
-      "answer": "27",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "4+6-7+1*1-4",
+      "answer": "0",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 22,
-      "expression": "28",
-      "answer": "28",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "4-3*10*10*8*7",
+      "answer": "-16796",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 23,
-      "expression": "29",
-      "answer": "29",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "10*6-2+5+4+1",
+      "answer": "68",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 24,
-      "expression": "30",
-      "answer": "30",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "1*2*5*5+1+10",
+      "answer": "61",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 25,
-      "expression": "31",
-      "answer": "31",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "6+4-8-4-7-9+8",
+      "answer": "-10",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 26,
-      "expression": "32",
-      "answer": "32",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "4*7*2+2*6-2-7",
+      "answer": "59",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 27,
-      "expression": "33",
-      "answer": "33",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "6-6-10-1*8+10+10",
+      "answer": "2",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 28,
-      "expression": "34",
-      "answer": "34",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "5*8*9-4+5+8-9",
+      "answer": "360",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 29,
-      "expression": "35",
-      "answer": "35",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "8*8-10-7-4+2*9",
+      "answer": "61",
+      "hint": "Calculate the result of the expression mentally."
     },
     {
       "level": 30,
-      "expression": "36",
-      "answer": "36",
-      "hint": "Focus on the number shown, repeat it silently once, then enter the same digits from memory without changing their order."
+      "expression": "2-7+3-5+3*5*7+3",
+      "answer": "101",
+      "hint": "Calculate the result of the expression mentally."
     }
   ]
 }

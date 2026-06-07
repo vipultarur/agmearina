@@ -1,3 +1,4 @@
+import 'dart:async';
 import 'dart:math' as math;
 
 import 'package:flutter/material.dart';
@@ -44,6 +45,126 @@ class KeypadPuzzleDisplay extends StatelessWidget {
         ),
         SizedBox(height: 36.h),
         AnswerBox(text: input.isEmpty ? '?' : input),
+      ],
+    );
+  }
+}
+
+class MentalArithmeticDisplay extends StatefulWidget {
+  final String expression;
+  final String input;
+
+  const MentalArithmeticDisplay({
+    super.key,
+    required this.expression,
+    required this.input,
+  });
+
+  @override
+  State<MentalArithmeticDisplay> createState() => _MentalArithmeticDisplayState();
+}
+
+class _MentalArithmeticDisplayState extends State<MentalArithmeticDisplay> {
+  late List<String> tokens;
+  int currentIndex = 0;
+  Timer? _timer;
+
+  @override
+  void initState() {
+    super.initState();
+    _parseTokens();
+    _startTimer();
+  }
+
+  @override
+  void didUpdateWidget(MentalArithmeticDisplay oldWidget) {
+    super.didUpdateWidget(oldWidget);
+    if (oldWidget.expression != widget.expression) {
+      _parseTokens();
+      _startTimer();
+    }
+  }
+
+  void _parseTokens() {
+    final RegExp regex = RegExp(r'\d+|[+\-*/]');
+    final matches = regex.allMatches(widget.expression);
+    tokens = matches.map((m) => m.group(0)!).toList();
+    currentIndex = 0;
+  }
+
+  void _startTimer() {
+    _timer?.cancel();
+    _timer = Timer.periodic(const Duration(seconds: 1), (timer) {
+      if (!mounted) {
+        timer.cancel();
+        return;
+      }
+      setState(() {
+        if (currentIndex < tokens.length) {
+          currentIndex++;
+        } else {
+          timer.cancel();
+        }
+      });
+    });
+  }
+
+  @override
+  void dispose() {
+    _timer?.cancel();
+    super.dispose();
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final bool isFinished = currentIndex >= tokens.length;
+    final String currentDisplay = isFinished ? '?' : tokens[currentIndex];
+
+    return Column(
+      children: <Widget>[
+        SizedBox(
+          width: double.infinity,
+          height: 60.h,
+          child: Center(
+            child: AnimatedSwitcher(
+              duration: const Duration(milliseconds: 700),
+              switchInCurve: Curves.easeOutCubic,
+              switchOutCurve: Curves.easeInCubic,
+              transitionBuilder: (Widget child, Animation<double> animation) {
+                final isIncoming = child.key == ValueKey<int>(currentIndex);
+                final offsetAnimation = Tween<Offset>(
+                  begin: isIncoming ? const Offset(1.0, 0.0) : const Offset(-1.0, 0.0),
+                  end: Offset.zero,
+                ).animate(animation);
+                
+                return ClipRect(
+                  child: SlideTransition(
+                    position: offsetAnimation,
+                    child: FadeTransition(
+                      opacity: animation,
+                      child: child,
+                    ),
+                  ),
+                );
+              },
+              child: SizedBox(
+                key: ValueKey<int>(currentIndex),
+                width: MediaQuery.of(context).size.width,
+                child: Center(
+                  child: Text(
+                    currentDisplay,
+                    style: AppTextStyles.equationLarge.copyWith(
+                      color: AppColors.text.withValues(alpha: 0.74),
+                      fontSize: 42.sp,
+                    ),
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ),
+        SizedBox(height: 36.h),
+        AnswerBox(text: widget.input.isEmpty ? '?' : widget.input),
       ],
     );
   }
@@ -153,7 +274,7 @@ class AnswerBox extends StatelessWidget {
             },
             child: Text(
               text,
-              key: ValueKey<String>(text),
+              key: ValueKey<bool>(text == '?'),
               style: AppTextStyles.keypadNumber,
             ),
           ),
@@ -770,6 +891,7 @@ class CardGridDisplay extends StatelessWidget {
                         card: cards[index],
                         color: color,
                         size: cardSize,
+                        selected: revealedIndexes.contains(index) && !coveredByDefault,
                         revealed:
                             solvedIndexes.contains(index) ||
                             revealedIndexes.contains(index) ||
@@ -793,6 +915,7 @@ class _MemoryCard extends StatelessWidget {
   final double? size;
   final bool revealed;
   final bool solved;
+  final bool selected;
   final VoidCallback onTap;
 
   const _MemoryCard({
@@ -802,43 +925,55 @@ class _MemoryCard extends StatelessWidget {
     this.size,
     required this.revealed,
     required this.solved,
+    this.selected = false,
     required this.onTap,
   });
 
   @override
   Widget build(BuildContext context) {
     final cardSize = size ?? AppDimensions.keypadButtonSize;
-    return AppBounce(
-      onTap: solved ? null : onTap,
-      child: AnimatedContainer(
-        duration: const Duration(milliseconds: 180),
-        curve: Curves.easeOutCubic,
-        width: cardSize,
-        height: cardSize * 0.95,
-        decoration: BoxDecoration(
-          color: solved
-              ? color.withValues(alpha: 0.18)
-              : revealed
-              ? AppColors.cardSurface
-              : color.withValues(alpha: 0.68),
-          borderRadius: BorderRadius.circular(AppDimensions.keypadRoundedRadius),
-          border: Border.all(
-            color: AppColors.border,
-            width: AppDimensions.regularStroke,
-          ),
-        ),
-        child: Center(
-          child: AnimatedSwitcher(
-            duration: const Duration(milliseconds: 150),
-            child: Text(
-              revealed ? card.label : '',
-              key: ValueKey<String>(revealed ? card.label : 'covered'),
-              textAlign: TextAlign.center,
-              maxLines: 2,
-              overflow: TextOverflow.ellipsis,
-              style: AppTextStyles.keypadNumber.copyWith(
-                color: AppColors.text,
-                fontSize: 30.sp,
+    return AnimatedScale(
+      scale: solved ? 0.001 : 1.0,
+      duration: const Duration(milliseconds: 250),
+      curve: Curves.easeInBack,
+      child: AnimatedOpacity(
+        opacity: solved ? 0.0 : 1.0,
+        duration: const Duration(milliseconds: 200),
+        child: AppBounce(
+          onTap: solved ? null : onTap,
+          child: AnimatedContainer(
+            duration: const Duration(milliseconds: 180),
+            curve: Curves.easeOutCubic,
+            width: cardSize,
+            height: cardSize * 0.95,
+            decoration: BoxDecoration(
+              color: solved
+                  ? color.withValues(alpha: 0.18)
+                  : selected
+                  ? color.withValues(alpha: 0.45)
+                  : revealed
+                  ? AppColors.cardSurface
+                  : color.withValues(alpha: 0.68),
+              borderRadius: BorderRadius.circular(AppDimensions.keypadRoundedRadius),
+              border: Border.all(
+                color: selected ? color : AppColors.border,
+                width: selected ? 2.5.r : AppDimensions.regularStroke,
+              ),
+            ),
+            child: Center(
+              child: AnimatedSwitcher(
+                duration: const Duration(milliseconds: 150),
+                child: Text(
+                  revealed ? card.label : '',
+                  key: ValueKey<String>(revealed ? card.label : 'covered'),
+                  textAlign: TextAlign.center,
+                  maxLines: 2,
+                  overflow: TextOverflow.ellipsis,
+                  style: AppTextStyles.keypadNumber.copyWith(
+                    color: AppColors.text,
+                    fontSize: 30.sp,
+                  ),
+                ),
               ),
             ),
           ),

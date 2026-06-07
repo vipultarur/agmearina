@@ -5,6 +5,7 @@ import '../../../../common/widgets/app_motion.dart';
 import '../../../../common/widgets/capped_scaffold.dart';
 import '../../../../common/widgets/store_header.dart';
 import '../../../../common/widgets/sub_game_card.dart';
+
 import '../../../../core/theme/app_text_styles.dart';
 import '../../../../core/utils/navigation.dart';
 import '../../../games/data/game_catalog.dart';

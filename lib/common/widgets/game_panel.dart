@@ -1,3 +1,4 @@
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -12,8 +13,7 @@ import 'timer_ring.dart';
 class GamePanel extends StatelessWidget {
   final GameConfig game;
   final int level;
-  final int score;
-  final int secondsRemaining;
+  final ValueListenable<int> secondsRemainingNotifier;
   final int maxSeconds;
   final Widget child;
 
@@ -21,8 +21,7 @@ class GamePanel extends StatelessWidget {
     super.key,
     required this.game,
     required this.level,
-    required this.score,
-    required this.secondsRemaining,
+    required this.secondsRemainingNotifier,
     required this.maxSeconds,
     required this.child,
   });
@@ -71,7 +70,7 @@ class GamePanel extends StatelessWidget {
                         ),
                       ),
                       SizedBox(width: 8.w),
-                      MetricStack(score: score, coins: appState.coins),
+                      MetricStack(coins: appState.coins),
                     ],
                   ),
                   SizedBox(height: 20.h),
@@ -81,10 +80,15 @@ class GamePanel extends StatelessWidget {
             ),
             Positioned(
               top: AppDimensions.gamePanelTimerTop,
-              child: TimerRing(
-                color: game.theme.primary,
-                remaining: secondsRemaining,
-                maxSeconds: maxSeconds,
+              child: ValueListenableBuilder<int>(
+                valueListenable: secondsRemainingNotifier,
+                builder: (context, remaining, child) {
+                  return TimerRing(
+                    color: game.theme.primary,
+                    remaining: remaining,
+                    maxSeconds: maxSeconds,
+                  );
+                },
               ),
             ),
           ],
@@ -95,18 +99,15 @@ class GamePanel extends StatelessWidget {
 }
 
 class MetricStack extends StatelessWidget {
-  final int score;
   final int coins;
 
-  const MetricStack({super.key, required this.score, required this.coins});
+  const MetricStack({super.key, required this.coins});
 
   @override
   Widget build(BuildContext context) {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.end,
       children: <Widget>[
-        metric(AssetConstants.trophy, score),
-        SizedBox(height: 8.h),
         metric(AssetConstants.coin, coins),
       ],
     );

@@ -99,6 +99,8 @@ class NumericKeypad extends StatelessWidget {
   }
 
   Widget _buttonFor(String value, double size) {
+    final bColor = color.withValues(alpha: 0.5);
+    final bRadius = AppDimensions.keypadRoundedRadius;
     if (value == 'Clear') {
       return KeyButton(
         key: const ValueKey<String>('key-clear'),
@@ -106,6 +108,8 @@ class NumericKeypad extends StatelessWidget {
         color: AppColors.cardSurface,
         rounded: false,
         size: size,
+        borderColor: bColor,
+        borderRadius: bRadius,
         onTap: onClear,
       );
     }
@@ -117,6 +121,8 @@ class NumericKeypad extends StatelessWidget {
         color: AppColors.cardSurface,
         rounded: false,
         size: size,
+        borderColor: bColor,
+        borderRadius: bRadius,
         onTap: onBackspace,
       );
     }
@@ -126,6 +132,8 @@ class NumericKeypad extends StatelessWidget {
       color: color.withValues(alpha: 0.62),
       rounded: false,
       size: size,
+      borderColor: bColor,
+      borderRadius: bRadius,
       onTap: () => onDigit(value),
     );
   }
@@ -172,11 +180,17 @@ class KeyButton extends StatelessWidget {
         ),
         child: Center(
           child: icon == null
-              ? Text(
-                  label,
-                  style: label.length > 1
-                      ? AppTextStyles.keypadAction
-                      : AppTextStyles.keypadNumber,
+              ? Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 8.w),
+                  child: FittedBox(
+                    fit: BoxFit.scaleDown,
+                    child: Text(
+                      label,
+                      style: label.length > 1
+                          ? AppTextStyles.keypadAction
+                          : AppTextStyles.keypadNumber,
+                    ),
+                  ),
                 )
               : Icon(icon, color: AppColors.black, size: buttonSize * 0.35),
         ),

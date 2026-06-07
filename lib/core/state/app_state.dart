@@ -8,7 +8,6 @@ class AppState extends ChangeNotifier {
   final SharedPreferences _prefs;
 
   int coins = AppConstants.initialCoins;
-  final Map<String, int> trophies = <String, int>{};
   final Map<String, Set<int>> completedLevels = <String, Set<int>>{};
   final Map<String, Map<int, int>> bestStars = <String, Map<int, int>>{};
   final Map<String, Map<int, int>> bestTimes = <String, Map<int, int>>{};
@@ -28,75 +27,79 @@ class AppState extends ChangeNotifier {
 
     final String? completedStr = _prefs.getString('completedLevels');
     if (completedStr != null) {
-      final Map<String, dynamic> decoded = jsonDecode(completedStr);
-      decoded.forEach((String key, dynamic value) {
-        completedLevels[key] = (value as List).cast<int>().toSet();
-      });
+      try {
+        final Map<String, dynamic> decoded = jsonDecode(completedStr);
+        decoded.forEach((String key, dynamic value) {
+          completedLevels[key] = (value as List).cast<int>().toSet();
+        });
+      } catch (_) {
+        _prefs.remove('completedLevels');
+      }
     }
 
     final String? starsStr = _prefs.getString('bestStars');
     if (starsStr != null) {
-      final Map<String, dynamic> decoded = jsonDecode(starsStr);
-      decoded.forEach((String key, dynamic value) {
-        final Map<String, dynamic> valMap = value as Map<String, dynamic>;
-        bestStars[key] = valMap.map((String k, dynamic v) => MapEntry<int, int>(int.parse(k), v as int));
-      });
+      try {
+        final Map<String, dynamic> decoded = jsonDecode(starsStr);
+        decoded.forEach((String key, dynamic value) {
+          final Map<String, dynamic> valMap = value as Map<String, dynamic>;
+          bestStars[key] = valMap.map((String k, dynamic v) => MapEntry<int, int>(int.parse(k), v as int));
+        });
+      } catch (_) {
+        _prefs.remove('bestStars');
+      }
     }
 
     final String? timesStr = _prefs.getString('bestTimes');
     if (timesStr != null) {
-      final Map<String, dynamic> decoded = jsonDecode(timesStr);
-      decoded.forEach((String key, dynamic value) {
-        final Map<String, dynamic> valMap = value as Map<String, dynamic>;
-        bestTimes[key] = valMap.map((String k, dynamic v) => MapEntry<int, int>(int.parse(k), v as int));
-      });
+      try {
+        final Map<String, dynamic> decoded = jsonDecode(timesStr);
+        decoded.forEach((String key, dynamic value) {
+          final Map<String, dynamic> valMap = value as Map<String, dynamic>;
+          bestTimes[key] = valMap.map((String k, dynamic v) => MapEntry<int, int>(int.parse(k), v as int));
+        });
+      } catch (_) {
+        _prefs.remove('bestTimes');
+      }
     }
 
-    _calculateTrophies();
   }
 
-  void _calculateTrophies() {
-    trophies.clear();
-    completedLevels.forEach((String gameId, Set<int> levels) {
-      trophies[gameId] = levels.isEmpty ? 0 : levels.reduce((int a, int b) => a > b ? a : b);
-    });
+
+  Future<void> _saveCoins() async {
+    await _prefs.setInt('coins', coins);
   }
 
-  void _saveCoins() {
-    _prefs.setInt('coins', coins);
+  Future<void> _saveSettings() async {
+    await _prefs.setBool('sound', sound);
+    await _prefs.setBool('vibration', vibration);
+    await _prefs.setBool('darkMode', darkMode);
   }
 
-  void _saveSettings() {
-    _prefs.setBool('sound', sound);
-    _prefs.setBool('vibration', vibration);
-    _prefs.setBool('darkMode', darkMode);
-  }
-
-  void _saveCompletedLevels() {
+  Future<void> _saveCompletedLevels() async {
     final Map<String, List<int>> encodable = {};
     completedLevels.forEach((String key, Set<int> value) {
       encodable[key] = value.toList();
     });
-    _prefs.setString('completedLevels', jsonEncode(encodable));
+    await _prefs.setString('completedLevels', jsonEncode(encodable));
   }
 
-  void _saveBestStars() {
+  Future<void> _saveBestStars() async {
     final Map<String, Map<String, int>> encodable = {};
     bestStars.forEach((String key, Map<int, int> value) {
       encodable[key] = value.map((int k, int v) => MapEntry<String, int>(k.toString(), v));
     });
-    _prefs.setString('bestStars', jsonEncode(encodable));
+    await _prefs.setString('bestStars', jsonEncode(encodable));
   }
 
-  void _saveBestTimes() {
+  Future<void> _saveBestTimes() async {
     final Map<String, Map<String, int>> encodable = {};
     bestTimes.forEach((String key, Map<int, int> value) {
       encodable[key] = value.map((int k, int v) => MapEntry<String, int>(k.toString(), v));
     });
-    _prefs.setString('bestTimes', jsonEncode(encodable));
+    await _prefs.setString('bestTimes', jsonEncode(encodable));
   }
 
-  int trophyCount(String gameId) => completedLevels[gameId]?.length ?? 0;
 
   bool isLevelCompleted(String gameId, int level) {
     return completedLevels[gameId]?.contains(level) ?? false;
@@ -125,7 +128,6 @@ class AppState extends ChangeNotifier {
     final firstCompletion = levels.add(level);
     if (firstCompletion) {
       _saveCompletedLevels();
-      _calculateTrophies();
       stateChanged = true;
     }
 

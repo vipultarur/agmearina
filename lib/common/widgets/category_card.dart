@@ -8,7 +8,6 @@ import '../../features/games/domain/entities/game_config.dart';
 import 'app_asset.dart';
 import 'app_motion.dart';
 import 'decorative_shapes.dart';
-
 class CategoryCard extends StatelessWidget {
   final String title;
   final GameTheme theme;
@@ -73,13 +72,19 @@ class CategoryCard extends StatelessWidget {
                       ),
                       Positioned(
                         left: 142.w,
-                        top: 62.h,
+                        top: 48.h,
                         right: 20.w,
-                        child: Text(
-                          title,
-                          maxLines: 2,
-                          overflow: TextOverflow.ellipsis,
-                          style: AppTextStyles.categoryTitle,
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(
+                              title,
+                              maxLines: 2,
+                              overflow: TextOverflow.ellipsis,
+                              style: AppTextStyles.categoryTitle,
+                            ),
+                            SizedBox(height: 10.h),
+                          ],
                         ),
                       ),
                       Positioned(

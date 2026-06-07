@@ -34,10 +34,10 @@ class GamePlayScreen extends StatefulWidget {
   State<GamePlayScreen> createState() => _GamePlayScreenState();
 }
 
-class _GamePlayScreenState extends State<GamePlayScreen> {
+class _GamePlayScreenState extends State<GamePlayScreen> with WidgetsBindingObserver {
   GameQuestion? question;
   Object? questionLoadError;
-  late int secondsRemaining;
+  late final ValueNotifier<int> secondsRemainingNotifier;
   Timer? timer;
   String input = '';
   String secondInput = '';
@@ -56,7 +56,8 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
   @override
   void initState() {
     super.initState();
-    secondsRemaining = widget.game.maxSeconds;
+    secondsRemainingNotifier = ValueNotifier<int>(widget.game.maxSeconds);
+    WidgetsBinding.instance.addObserver(this);
   }
 
   @override
@@ -80,10 +81,8 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
       if (roundEnded || question == null || questionLoadError != null) {
         return;
       }
-      final nextSeconds = math.max(0, secondsRemaining - 1);
-      setState(() {
-        secondsRemaining = nextSeconds;
-      });
+      final nextSeconds = math.max(0, secondsRemainingNotifier.value - 1);
+      secondsRemainingNotifier.value = nextSeconds;
       if (nextSeconds == 0) {
         finishRound(won: false);
       }
@@ -96,7 +95,7 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
   }
 
   void resumeTimerIfActive() {
-    if (!mounted || roundEnded || secondsRemaining <= 0) {
+    if (!mounted || roundEnded || secondsRemainingNotifier.value <= 0) {
       return;
     }
     startTimer();
@@ -104,8 +103,19 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
 
   @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
     timer?.cancel();
+    secondsRemainingNotifier.dispose();
     super.dispose();
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.paused || state == AppLifecycleState.inactive) {
+      pauseTimer();
+    } else if (state == AppLifecycleState.resumed) {
+      resumeTimerIfActive();
+    }
   }
 
   Future<void> loadQuestion(AssetBundle bundle) async {
@@ -165,8 +175,7 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
                         : GamePanel(
                             game: widget.game,
                             level: widget.level,
-                            score: score,
-                            secondsRemaining: secondsRemaining,
+                            secondsRemainingNotifier: secondsRemainingNotifier,
                             maxSeconds: widget.game.maxSeconds,
                             child: FadeSlideIn(
                               delay: const Duration(milliseconds: 120),
@@ -234,7 +243,7 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
                           ),
                         ),
                       ),
-                      MetricStack(score: score, coins: appState.coins),
+                      MetricStack(coins: appState.coins),
                     ],
                   ),
                   SizedBox(height: 12.h),
@@ -265,10 +274,15 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
             ),
             Positioned(
               top: AppDimensions.gamePanelTimerTop,
-              child: TimerRing(
-                color: widget.game.theme.primary,
-                remaining: secondsRemaining,
-                maxSeconds: widget.game.maxSeconds,
+              child: ValueListenableBuilder<int>(
+                valueListenable: secondsRemainingNotifier,
+                builder: (context, remaining, child) {
+                  return TimerRing(
+                    color: widget.game.theme.primary,
+                    remaining: remaining,
+                    maxSeconds: widget.game.maxSeconds,
+                  );
+                },
               ),
             ),
           ],
@@ -298,10 +312,16 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
   Widget buildPuzzleArea(GameQuestion question) {
     switch (widget.game.mode) {
       case PlayMode.keypad:
+        if (widget.game.id == mentalArithmeticGame.id) {
+          return MentalArithmeticDisplay(
+            expression: question.expression,
+            input: input,
+          );
+        }
         return KeypadPuzzleDisplay(
           expression: question.expression,
           input: input,
-          mentalMode: widget.game.id == mentalArithmeticGame.id,
+          mentalMode: false,
         );
       case PlayMode.answers:
         return ExpressionWithMissingBox(expression: question.expression);
@@ -512,13 +532,21 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
           final secondTarget = parts[1];
           if (activeDualInput == 0 && input.length >= firstTarget.length && input != firstTarget) {
             showFeedback('Try again', correct: false);
-            setState(() {
-              input = '';
+            final wrongInput = input;
+            Future<void>.delayed(const Duration(milliseconds: 500), () {
+              if (!mounted || roundEnded || input != wrongInput) return;
+              setState(() {
+                input = '';
+              });
             });
           } else if (activeDualInput == 1 && secondInput.length >= secondTarget.length && secondInput != secondTarget) {
             showFeedback('Try again', correct: false);
-            setState(() {
-              secondInput = '';
+            final wrongInput = secondInput;
+            Future<void>.delayed(const Duration(milliseconds: 500), () {
+              if (!mounted || roundEnded || secondInput != wrongInput) return;
+              setState(() {
+                secondInput = '';
+              });
             });
           }
         }
@@ -530,8 +558,12 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
       finishRound(won: true);
     } else if (input.length >= loadedQuestion.answer.length) {
       showFeedback('Try again', correct: false);
-      setState(() {
-        input = '';
+      final wrongInput = input;
+      Future<void>.delayed(const Duration(milliseconds: 500), () {
+        if (!mounted || roundEnded || input != wrongInput) return;
+        setState(() {
+          input = '';
+        });
       });
     }
   }
@@ -567,7 +599,6 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
     }
     final slotIndex = selectedTriangleSlot;
     if (slotIndex == null) {
-      showFeedback('Select a spot', correct: false);
       return;
     }
     setState(() {
@@ -654,6 +685,8 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
       });
       if (solvedCardIndexes.length == loadedQuestion.cards.length) {
         finishRound(won: true);
+      } else {
+        AppFeedback.play(context, AppFeedbackEffect.correct);
       }
       return;
     }
@@ -692,6 +725,8 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
         .length;
     if (solvedCardIndexes.length >= targetCount) {
       finishRound(won: true);
+    } else {
+      AppFeedback.play(context, AppFeedbackEffect.correct);
     }
   }
 
@@ -703,7 +738,7 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
       return;
     }
     pauseTimer();
-    final completedSeconds = widget.game.maxSeconds - secondsRemaining;
+    final completedSeconds = widget.game.maxSeconds - secondsRemainingNotifier.value;
     final earnedStars = won ? calculateStars() : 0;
     if (won) {
       AppScope.of(context).completeLevel(
@@ -743,7 +778,7 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
   int calculateStars() {
     final progress = widget.game.maxSeconds == 0
         ? 0.0
-        : secondsRemaining / widget.game.maxSeconds;
+        : secondsRemainingNotifier.value / widget.game.maxSeconds;
     if (progress >= 0.70) {
       return 3;
     }
@@ -754,8 +789,8 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
   }
 
   void restartLevel() {
+    secondsRemainingNotifier.value = widget.game.maxSeconds;
     setState(() {
-      secondsRemaining = widget.game.maxSeconds;
       input = '';
       secondInput = '';
       activeDualInput = 0;
@@ -769,7 +804,7 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
       solvedCardIndexes.clear();
       selectedCardIndexes.clear();
     });
-    resumeTimerIfActive();
+    loadQuestion(DefaultAssetBundle.of(context));
   }
 
   void goHome() {
@@ -800,15 +835,5 @@ class _GamePlayScreenState extends State<GamePlayScreen> {
       feedbackCorrect = correct;
       feedbackTrigger += 1;
     });
-    ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text(message),
-        behavior: SnackBarBehavior.floating,
-        backgroundColor: correct
-            ? widget.game.theme.primary
-            : Theme.of(context).colorScheme.error,
-        duration: const Duration(milliseconds: 700),
-      ),
-    );
   }
 }

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:share_plus/share_plus.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 import '../../../../common/widgets/app_motion.dart';
 import '../../../../common/widgets/capped_scaffold.dart';
@@ -85,21 +87,44 @@ class SettingsScreen extends StatelessWidget {
               ),
             ),
             const SettingsDivider(),
-            const StaggeredEntry(index: 4, child: SettingsRow(label: 'Share')),
+            StaggeredEntry(
+              index: 4,
+              child: SettingsRow(
+                label: 'Share',
+                onTap: () {
+                  try {
+                    SharePlus.instance.share(
+                      ShareParams(
+                        text: 'Check out Math Spazzel, the best math puzzle app!',
+                      ),
+                    );
+                  } catch (_) {}
+                },
+              ),
+            ),
             const SettingsDivider(),
-            const StaggeredEntry(
+            StaggeredEntry(
               index: 5,
-              child: SettingsRow(label: 'Rate Us'),
+              child: SettingsRow(
+                label: 'Rate Us',
+                onTap: () => launchUrl(Uri.parse('market://details?id=com.tarurinfotech.mathspazzel')),
+              ),
             ),
             const SettingsDivider(),
-            const StaggeredEntry(
+            StaggeredEntry(
               index: 6,
-              child: SettingsRow(label: 'Feedback'),
+              child: SettingsRow(
+                label: 'Feedback',
+                onTap: () => launchUrl(Uri.parse('mailto:support@tarurinfotech.base44.app?subject=Math Spazzel Feedback')),
+              ),
             ),
             const SettingsDivider(),
-            const StaggeredEntry(
+            StaggeredEntry(
               index: 7,
-              child: SettingsRow(label: 'Privacy Policy'),
+              child: SettingsRow(
+                label: 'Privacy Policy',
+                onTap: () => launchUrl(Uri.parse('https://tarurinfotech.base44.app/privacy/airesume')),
+              ),
             ),
           ],
         ),
@@ -197,15 +222,16 @@ class MockSwitch extends StatelessWidget {
 
 class SettingsRow extends StatelessWidget {
   final String label;
+  final VoidCallback onTap;
 
-  const SettingsRow({super.key, required this.label});
+  const SettingsRow({super.key, required this.label, required this.onTap});
 
   @override
   Widget build(BuildContext context) {
     return SizedBox(
       height: 70.h,
       child: AppBounce(
-        onTap: () {},
+        onTap: onTap,
         child: Row(
           children: <Widget>[
             Text(label, style: AppTextStyles.settingsRow),

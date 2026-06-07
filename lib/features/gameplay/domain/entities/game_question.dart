@@ -36,6 +36,11 @@ class GameQuestion {
         data[key] = json[key];
       }
     }
+    
+    if (data['cards'] is List) {
+      data['cards'] = List<dynamic>.from(data['cards'] as List)..shuffle();
+    }
+
     final hint = json['hint']?.toString().trim();
     if (hint != null && hint.isNotEmpty) {
       data['hint'] = hint;

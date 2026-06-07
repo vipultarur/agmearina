@@ -16,7 +16,10 @@ Future<GameQuestion> loadQuestionFor(
   final json = await _loadGameLevelJson(game, bundle: bundle);
   final levelJson = _readLevelJsons(
     json,
-  ).firstWhere((Map<String, dynamic> item) => _readLevel(item) == level);
+  ).firstWhere(
+    (Map<String, dynamic> item) => _readLevel(item) == level,
+    orElse: () => throw FormatException('Level $level not found in asset'),
+  );
   final questionJson = Map<String, dynamic>.from(levelJson)
     ..putIfAbsent('title', () => game.title);
 
